@@ -1,0 +1,22 @@
+
+/* Custom styles for Confluence (included for all themes by default) */
+
+.rendericon {display: none;}
+
+/* #navigation {display:none;} */
+
+/* hide comments by default */
+/*#com-atlassian-confluence #comments-section {display:none;}*/
+
+/*hide edit picture link in user profile*/
+#section-list-yourprofile a[href="/users/editmyprofilepicture.action"] {
+    display: none;
+}
+#forgot-password {
+    display:none;
+}
+
+
+/* End custom styles for Confluence */
+
+

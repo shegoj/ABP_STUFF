@@ -1,0 +1,9 @@
+
+/* Custom styles for Confluence (included for all themes by default) */
+
+/* unhide comments, y u no like pr0n spam? */
+#com-atlassian-confluence #comments-section {display:inline;}
+
+/* End custom styles for Confluence */
+
+

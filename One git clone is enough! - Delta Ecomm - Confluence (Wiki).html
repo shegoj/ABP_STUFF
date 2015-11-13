@@ -1,0 +1,1788 @@
+<!DOCTYPE html>
+<!-- saved from url=(0064)https://wiki.corp-apps.com/pages/viewpage.action?pageId=78815562 -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+                    <title>One git clone is enough! - Delta Ecomm - Confluence (Wiki)</title>
+    
+        
+
+                        
+    
+                        
+    
+
+                
+    
+    <meta http-equiv="X-UA-Compatible" content="IE=EDGE,chrome=IE7">
+<meta charset="UTF-8">
+<meta id="confluence-context-path" name="confluence-context-path" content="">
+<meta id="confluence-base-url" name="confluence-base-url" content="https://wiki.corp-apps.com">
+
+<meta id="atlassian-token" name="atlassian-token" content="e85b1f01b8416cd86f0ea33befcfc4218088a6b1">
+
+
+<meta id="confluence-space-key" name="confluence-space-key" content="ECOMMDEV">
+<script type="text/javascript">
+        var contextPath = '';
+</script>
+
+    
+
+    <meta name="confluence-request-time" content="1447413346597">
+        
+    
+        
+            <meta name="ajs-is-space-admin" content="false"> <meta name="ajs-has-space-config" content="false">
+            <meta name="ajs-show-space-welcome-dialog" content="true">
+            <style>.ia-fixed-sidebar, .ia-splitter-left {width: 285px;}.theme-default .ia-splitter #main {margin-left: 285px;}.ia-fixed-sidebar {visibility: hidden;}</style>
+            <meta name="ajs-use-keyboard-shortcuts" content="true">
+            <meta name="ajs-discovered-plugin-features" content="{&quot;com.atlassian.confluence.plugins.confluence-jira-metadata&quot;:[&quot;linked-issues-dropdown&quot;]}">
+            <meta name="ajs-keyboardshortcut-hash" content="4e755be8592b9e2232e0714ad03af34c">
+            <meta id="team-calendars-has-jira-link" content="true">
+            <meta name="ajs-team-calendars-display-time-format" content="displayTimeFormat12">
+            <meta id="team-calendars-user-timezone" content="America/New_York">
+            <script type="text/x-template" id="team-calendars-messages" title="team-calendars-messages"><fieldset class="i18n hidden"><input type="hidden" name="calendar3.month.long.july" value="July"><input type="hidden" name="calendar3.day.short.wednesday" value="Wed"><input type="hidden" name="calendar3.day.short.thursday" value="Thu"><input type="hidden" name="calendar3.month.short.march" value="Mar"><input type="hidden" name="calendar3.month.long.april" value="April"><input type="hidden" name="calendar3.month.long.october" value="October"><input type="hidden" name="calendar3.month.long.august" value="August"><input type="hidden" name="calendar3.month.short.july" value="Jul"><input type="hidden" name="calendar3.month.short.may" value="May"><input type="hidden" name="calendar3.month.short.november" value="Nov"><input type="hidden" name="calendar3.day.long.friday" value="Friday"><input type="hidden" name="calendar3.day.long.sunday" value="Sunday"><input type="hidden" name="calendar3.day.long.saturday" value="Saturday"><input type="hidden" name="calendar3.month.short.april" value="Apr"><input type="hidden" name="calendar3.day.long.wednesday" value="Wednesday"><input type="hidden" name="calendar3.month.long.december" value="December"><input type="hidden" name="calendar3.month.short.october" value="Oct"><input type="hidden" name="calendar3.day.long.monday" value="Monday"><input type="hidden" name="calendar3.month.short.june" value="Jun"><input type="hidden" name="calendar3.day.short.monday" value="Mon"><input type="hidden" name="calendar3.day.short.tuesday" value="Tue"><input type="hidden" name="calendar3.day.short.saturday" value="Sat"><input type="hidden" name="calendar3.month.long.march" value="March"><input type="hidden" name="calendar3.month.long.june" value="June"><input type="hidden" name="calendar3.month.short.february" value="Feb"><input type="hidden" name="calendar3.month.short.august" value="Aug"><input type="hidden" name="calendar3.month.short.december" value="Dec"><input type="hidden" name="calendar3.day.short.sunday" value="Sun"><input type="hidden" name="calendar3.month.long.february" value="February"><input type="hidden" name="calendar3.day.long.tuesday" value="Tuesday"><input type="hidden" name="calendar3.month.long.may" value="May"><input type="hidden" name="calendar3.month.long.september" value="September"><input type="hidden" name="calendar3.month.long.november" value="November"><input type="hidden" name="calendar3.month.short.january" value="Jan"><input type="hidden" name="calendar3.month.short.september" value="Sep"><input type="hidden" name="calendar3.day.long.thursday" value="Thursday"><input type="hidden" name="calendar3.month.long.january" value="January"><input type="hidden" name="calendar3.day.short.friday" value="Fri"></fieldset></script>
+            <meta name="ajs-is-confluence-admin" content="false">
+            <meta name="ajs-connection-timeout" content="360000">
+            
+    
+    
+            <meta name="ajs-page-id" content="78815562">
+            <meta name="ajs-latest-page-id" content="78815562">
+            <meta name="ajs-content-type" content="blogpost">
+            <meta name="ajs-page-title" content="One git clone is enough!">
+            <meta name="ajs-parent-page-id" content="">
+            <meta name="ajs-space-key" content="ECOMMDEV">
+            <meta name="ajs-space-name" content="Delta Ecomm">
+            <meta name="ajs-jira-metadata-count" content="-1">
+            <meta name="ajs-from-page-title" content="">
+            <meta name="ajs-can-remove-page" content="false">
+            <meta name="ajs-shared-drafts" content="false">
+            <meta name="ajs-user-display-name" content="Olusegun Ojewale">
+            <meta name="ajs-context-path" content="">
+            <meta name="ajs-base-url" content="https://wiki.corp-apps.com">
+            <meta name="ajs-version-number" content="5.8.10">
+            <meta name="ajs-build-number" content="5989">
+            <meta name="ajs-remote-user" content="oojewale">
+            <meta name="ajs-remote-user-key" content="8a9e3e264d18ddb6014de300173f009f">
+            <meta name="ajs-current-user-fullname" content="Olusegun Ojewale">
+            <meta name="ajs-current-user-avatar-url" content="/images/icons/profilepics/default.png">
+            <meta name="ajs-static-resource-url-prefix" content="/s/en_GB/5989/aaad9997c145089d7f38b9dea0ac5b91728ef55a.54/_">
+            <meta name="ajs-global-settings-attachment-max-size" content="30000000">
+            <meta name="ajs-user-locale" content="en_GB">
+            <meta name="ajs-enabled-dark-features" content="pdl,confluence.new-space-ia,confluence-inline-comments-resolved,notification.plugin.api.enabled.com.atlassian.confluence.plugins.sharepage.api.ShareContentEvent,notification.plugin.api.enabled.com.atlassian.confluence.plugins.mentions.api.ConfluenceMentionEvent,notification.plugin.api.enabled.com.atlassian.confluence.event.events.security.ForgotPasswordEvent,pdf-preview,notification.plugin.api.enabled.com.atlassian.confluence.plugins.tasklist.event.SendTaskEmailEvent,notification.plugin.api.enabled.com.atlassian.confluence.event.events.content.page.async.PageMovedEvent,previews.sharing,previews.versions,notification.plugin.api.enabled.com.atlassian.confluence.plugins.files.notifications.event.FileContentUpdateEvent,file-annotations,notification.plugin.api.enabled.com.atlassian.confluence.event.events.content.attachment.AttachmentBatchUploadCompletedEvent,notification.plugin.api.enabled.com.atlassian.confluence.event.events.content.comment.CommentCreateEvent,notification.plugin.api.enabled.com.atlassian.confluence.efi.emails.events.OnboardingLessUsersEvent,notification.plugin.api.enabled.com.atlassian.confluence.plugins.files.notifications.event.FileContentRemoveEvent,atlassian.aui.raphael.disabled,previews.conversion-service,notification.plugin.api.enabled.com.atlassian.confluence.event.events.content.comment.CommentUpdateEvent,notification.plugin.api.enabled.com.atlassian.confluence.event.events.follow.FollowEvent,notification.plugin.api.enabled.com.atlassian.confluence.event.events.content.page.async.PageEditedEvent,notification.plugin.api.enabled.com.atlassian.confluence.event.events.content.blogpost.BlogPostCreateEvent,previews.trigger-all-file-types,notification.plugin.api.enabled.com.atlassian.confluence.plugins.inlinecomments.events.InlineCommentResolveEvent,notification.plugin.api.enabled.com.atlassian.confluence.event.events.like.LikeCreatedEvent,notification.plugin.api.enabled.com.atlassian.confluence.plugins.inlinecomments.events.InlineCommentCreateEvent,previews.sharing.pushstate,confluence-inline-comments-rich-editor,notification.plugin.api.enabled.com.atlassian.confluence.event.events.content.blogpost.BlogPostUpdateEvent,file-annotations.likes,notification.plugin.api.enabled.com.atlassian.confluence.event.events.content.page.async.PageCreatedEvent,notification.plugin.api.enabled.com.atlassian.confluence.plugins.files.notifications.event.FileContentMentionUpdateEvent,notification.plugin.api.enabled.com.atlassian.confluence.efi.emails.events.OnboardingNoSpaceCreatedEvent,notification.plugin.api.enabled.com.atlassian.confluence.plugins.hipchat.api.events.HipChatUserMapped,notification.plugin.api.enabled.com.atlassian.confluence.plugins.sharepage.api.ShareAttachmentEvent,confluence-inline-comments,confluence-inline-comments-dangling-comment,notification.plugin.api.enabled.com.atlassian.confluence.event.events.content.blogpost.BlogPostMovedEvent">
+            <meta name="ajs-atl-token" content="e85b1f01b8416cd86f0ea33befcfc4218088a6b1">
+            <meta name="ajs-confluence-flavour" content="VANILLA">
+            <meta name="ajs-user-date-pattern" content="dd MMM yyyy">
+            <meta name="ajs-date.format" content="dd-MMM-yyyy">
+    
+    <link rel="shortcut icon" href="https://wiki.corp-apps.com/s/en_GB/5989/aaad9997c145089d7f38b9dea0ac5b91728ef55a.54/_/favicon.ico">
+    <link rel="icon" type="image/x-icon" href="https://wiki.corp-apps.com/s/en_GB/5989/aaad9997c145089d7f38b9dea0ac5b91728ef55a.54/_/favicon.ico">
+
+<link rel="search" type="application/opensearchdescription+xml" href="https://wiki.corp-apps.com/opensearch/osd.action" title="Confluence (Wiki)">
+
+<script>
+window.WRM=window.WRM||{};window.WRM._unparsedData=window.WRM._unparsedData||{};
+WRM._unparsedData["com.atlassian.plugins.atlassian-plugins-webresource-plugin:context-path.context-path"]="\"\"";
+WRM._unparsedData["com.atlassian.plugins.atlassian-nps-plugin:atlassian-nps-plugin-resources.is-server-instance-data-provider"]="true";
+WRM._unparsedData["com.atlassian.plugins.browser.metrics.browser-metrics-plugin:browser-metrics.feature-data-provider-legacy"]="true";
+WRM._unparsedData["com.atlassian.plugins.atlassian-plugins-webresource-rest:web-resource-manager.resource-base-url-pattern"]="\"(?:(?:/s/.*?/_)?/download)\"";
+WRM._unparsedData["com.atlassian.confluence.plugins.confluence-license-banner:confluence-license-banner-resources.license-details"]="{\"daysBeforeLicenseExpiry\":0,\"daysBeforeMaintenanceExpiry\":0,\"showLicenseExpiryBanner\":false,\"showMaintenanceExpiryBanner\":false,\"renewUrl\":null,\"salesEmail\":null}";
+WRM._unparsedData["com.atlassian.confluence.plugins.confluence-hipchat-integration-plugin:discovery-javascript-data.link-active"]="{\"linkActive\":false,\"conditionsMet\":true,\"admin\":false}";
+WRM._unparsedData["com.atlassian.plugins.atlassian-nps-plugin:nps-acknowledgement-resources.analytics-enabled-data-provider"]="\"true\"";
+WRM._unparsedData["com.atlassian.plugins.atlassian-nps-plugin:nps-acknowledgement-resources.sen-data-provider"]="\"SEN-163321\"";
+WRM._unparsedData["com.atlassian.confluence.plugins.confluence-feature-discovery-plugin:confluence-feature-discovery-plugin-resources.test-mode"]="false";
+WRM._unparsedData["com.atlassian.plugins.browser.metrics.browser-metrics-plugin:api.feature-data-provider"]="true";
+</script>
+<link type="text/css" rel="stylesheet" href="./One git clone is enough! - Delta Ecomm - Confluence (Wiki)_files/batch.css" media="all">
+<!--[if lt IE 9]>
+<link type="text/css" rel="stylesheet" href="/s/d41d8cd98f00b204e9800998ecf8427e-CDN/en_GB/5989/aaad9997c145089d7f38b9dea0ac5b91728ef55a.54/75/_/download/superbatch/css/batch.css?conditionalComment=lt+IE+9" media="all">
+<![endif]-->
+<!--[if lte IE 9]>
+<link type="text/css" rel="stylesheet" href="/s/d41d8cd98f00b204e9800998ecf8427e-CDN/en_GB/5989/aaad9997c145089d7f38b9dea0ac5b91728ef55a.54/75/_/download/superbatch/css/batch.css?conditionalComment=lte+IE+9" media="all">
+<![endif]-->
+<link type="text/css" rel="stylesheet" href="./One git clone is enough! - Delta Ecomm - Confluence (Wiki)_files/batch(1).css" media="all">
+<!--[if lt IE 9]>
+<link type="text/css" rel="stylesheet" href="/s/6c0981174e94142364564819dc0d1413-CDN/en_GB/5989/aaad9997c145089d7f38b9dea0ac5b91728ef55a.54/40bc1c219af5638552589eddfedff1a9/_/download/contextbatch/css/blogpost,viewcontent,plugin.quick.comment.pre,atl.general,main,pagebanner,atl.comments/batch.css?conditionalComment=lt+IE+9&amp;locale=en-GB" media="all">
+<![endif]-->
+<link type="text/css" rel="stylesheet" href="./One git clone is enough! - Delta Ecomm - Confluence (Wiki)_files/com.atlassian.confluence.ext.newcode-macro-plugin-syntaxhighlighter.css" media="all">
+<link type="text/css" rel="stylesheet" href="./One git clone is enough! - Delta Ecomm - Confluence (Wiki)_files/com.atlassian.confluence.ext.newcode-macro-plugin-sh-theme-confluence.css" media="all">
+<link type="text/css" rel="stylesheet" href="./One git clone is enough! - Delta Ecomm - Confluence (Wiki)_files/colors.css" media="all">
+<link type="text/css" rel="stylesheet" href="./One git clone is enough! - Delta Ecomm - Confluence (Wiki)_files/default-theme.css" media="all">
+<link type="text/css" rel="stylesheet" href="./One git clone is enough! - Delta Ecomm - Confluence (Wiki)_files/custom.css" media="all">
+<script type="text/javascript" src="./One git clone is enough! - Delta Ecomm - Confluence (Wiki)_files/batch.js"></script><style></style><style type="text/css"></style>
+<script type="text/javascript" src="./One git clone is enough! - Delta Ecomm - Confluence (Wiki)_files/batch(2).js"></script>
+<script type="text/javascript" src="./One git clone is enough! - Delta Ecomm - Confluence (Wiki)_files/com.atlassian.confluence.ext.newcode-macro-plugin-syntaxhighlighter.js"></script>
+<script type="text/javascript" src="./One git clone is enough! - Delta Ecomm - Confluence (Wiki)_files/com.atlassian.confluence.ext.newcode-macro-plugin-syntaxhighlighter-brushes.js"></script>
+<script type="text/javascript" src="./One git clone is enough! - Delta Ecomm - Confluence (Wiki)_files/com.atlassian.confluence.ext.newcode-macro-plugin-syntaxhighlighter-init.js"></script>
+
+
+        
+    
+
+        
+
+
+    
+    <!-- Hide the Add Comment Menu: -->
+<script>
+  AJS.toInit(function(){
+    AJS.$('#createBlogpostLink').hide();
+    AJS.$('#add-comment-menu-link').hide();
+});
+</script>
+
+<!-- Expand the Breadcrumbs: -->
+<script>
+  AJS.toInit(function(){
+    AJS.$('#ellipsis strong').click();
+  });
+</script>
+
+<!-- Hide the Add Blog Post option on the Dashboard: -->
+<script>
+  AJS.toInit(function(){
+    AJS.$('#createBlogpostLink').parent().hide();
+    AJS.$('#addBlogLink').parent().hide();
+  });
+</script> 
+
+    
+                <link rel="canonical" href="./One git clone is enough! - Delta Ecomm - Confluence (Wiki)_files/One git clone is enough! - Delta Ecomm - Confluence (Wiki).html">
+        <link rel="shortlink" href="https://wiki.corp-apps.com/x/SqGyB">
+    <meta name="wikilink" content="[ECOMMDEV:/2015/05/19/One git clone is enough!]">
+    <meta name="page-version" content="1">
+
+
+            <meta name="ajs-use-watch" content="true">
+            <meta name="ajs-attachment-source-content-id" content="78815562">
+            <meta name="ajs-use-inline-tasks" content="true">
+            <meta name="ajs-heartbeat" content="true">
+            <meta name="ajs-action-locale" content="en_GB">
+            <meta name="ajs-editor-plugin-resource-prefix" content="/s/en_GB/5989/aaad9997c145089d7f38b9dea0ac5b91728ef55a.54/5.8.10/_">
+            <meta name="ajs-existing-draft-id" content="0">
+            <meta name="ajs-user-watching-own-content" content="true">
+            <meta name="ajs-new-page" content="false">
+            <meta name="ajs-content-id" content="78815562">
+            <meta name="ajs-editor-mode" content="richtext">
+            <meta name="ajs-form-name" content="inlinecommentform">
+            <meta name="ajs-auto-start" content="false">
+            <meta name="ajs-can-attach-files" content="false">
+            <meta name="ajs-draft-id" content="0">
+            <meta name="ajs-shared-drafts" content="false">
+            <meta name="ajs-min-editor-height" content="150">
+            <meta name="ajs-draft-share-id" content="">
+            <meta name="ajs-content-type" content="blogpost">
+            <meta name="ajs-version-comment" content="">
+            <meta name="ajs-draft-type" content="blogpost">
+                
+            		    <meta name="ajs-max-thumb-width" content="300">
+		    <meta name="ajs-max-thumb-height" content="300">
+		    <meta name="ajs-can-send-email" content="true">
+		    <meta name="ajs-is-dev-mode" content="false">
+		    <meta name="ajs-draft-save-interval" content="300000">
+		    <meta name="ajs-show-hidden-user-macros" content="false">
+		    <meta name="ajs-is-admin" content="false">
+		    <meta name="ajs-confluence.prefs.editor.disable.autocomplete" content="false">
+		    <meta name="ajs-confluence.prefs.editor.disable.autoformat" content="false">
+		    <meta name="ajs-heartbeat-interval" content="30000">
+	
+    <link rel="stylesheet" type="text/css" href="./One git clone is enough! - Delta Ecomm - Confluence (Wiki)_files/batch(3).css"><script type="text/javascript" charset="utf-8" src="./One git clone is enough! - Delta Ecomm - Confluence (Wiki)_files/batch(4).js"></script><script type="text/javascript" charset="utf-8" src="./One git clone is enough! - Delta Ecomm - Confluence (Wiki)_files/com.atlassian.confluence.plugins.editor.confluence-source-editor-atlassian-source-editor-javascript.js"></script><style type="text/css"></style><link rel="stylesheet" type="text/css" href="./One git clone is enough! - Delta Ecomm - Confluence (Wiki)_files/batch(5).css" media="(max-width: 1450px)"><link rel="stylesheet" type="text/css" href="./One git clone is enough! - Delta Ecomm - Confluence (Wiki)_files/batch(6).css" media="print"></head>
+
+<body onload="placeFocus()" id="com-atlassian-confluence" class="theme-default view-blog-post aui-layout aui-theme-default pocketquery" data-aui-version="5.7.26">
+
+        
+            <div id="stp-licenseStatus-banner"></div>
+    <ul id="assistive-skip-links" class="assistive">
+    <li><a href="https://wiki.corp-apps.com/pages/viewpage.action?pageId=78815562#title-heading">Skip to content</a></li>
+    <li><a href="https://wiki.corp-apps.com/pages/viewpage.action?pageId=78815562#breadcrumbs">Skip to breadcrumbs</a></li>
+    <li><a href="https://wiki.corp-apps.com/pages/viewpage.action?pageId=78815562#header-menu-bar">Skip to header menu</a></li>
+    <li><a href="https://wiki.corp-apps.com/pages/viewpage.action?pageId=78815562#navigation">Skip to action menu</a></li>
+    <li><a href="https://wiki.corp-apps.com/pages/viewpage.action?pageId=78815562#quick-search-query">Skip to quick search</a></li>
+</ul>
+<div id="page">
+<div id="full-height-container">
+    <div id="header-precursor">
+        <div class="cell">
+            
+                            </div>
+    </div>
+    
+
+
+
+<header id="header" role="banner">
+    <nav class="aui-header aui-dropdown2-trigger-group" role="navigation" data-aui-responsive="true"><div class="aui-header-inner"><div class="aui-header-before"><a class=" aui-dropdown2-trigger app-switcher-trigger __skate" aria-owns="app-switcher" aria-controls="app-switcher" aria-haspopup="true" data-aui-trigger="" href="https://wiki.corp-apps.com/pages/viewpage.action?pageId=78815562#app-switcher"><span class="aui-icon aui-icon-small aui-iconfont-appswitcher">Linked Applications</span></a><div id="app-switcher" class="aui-dropdown2 aui-style-default"><div class="aui-dropdown2-section"><ul class="nav-links"><li class="nav-link"><a href="https://jiraops.corp-apps.com/" class="aui-dropdown2-radio interactive" title="https://jiraops.corp-apps.com/"><span class="nav-link-label">Jira (Operations)</span></a></li><li class="nav-link"><a href="https://jirapd.corp-apps.com/" class="aui-dropdown2-radio interactive" title="https://jirapd.corp-apps.com/"><span class="nav-link-label">JIRA (Product Development)</span></a></li><li class="nav-link nav-link-local"><a href="https://wiki.corp-apps.com/" class="aui-dropdown2-radio interactive checked" title="https://wiki.corp-apps.com/"><span class="nav-link-label">Confluence (Wiki)</span></a></li><li class="nav-link"><a href="https://ci.mak.corp-apps.com/" class="aui-dropdown2-radio interactive" title="https://ci.mak.corp-apps.com/"><span class="nav-link-label">Bamboo (MAK)</span></a></li><li class="nav-link"><a href="https://ci.mit.corp-apps.com/" class="aui-dropdown2-radio interactive" title="https://ci.mit.corp-apps.com/"><span class="nav-link-label">Bamboo (MIT)</span></a></li><li class="nav-link"><a href="https://crucible.corp-apps.com/" class="aui-dropdown2-radio interactive" title="https://crucible.corp-apps.com/"><span class="nav-link-label">Crucible</span></a></li></ul></div></div><script>
+            (function (NL) {
+                var initialise = function () {
+                    // For some milestones of AUI, the atlassian soy namespace was renamed to aui. Handle that here by ensuring that window.atlassian is defined.
+                    window.atlassian = window.atlassian || window.aui;
+                    new NL.AppSwitcher({
+                        dropdownContents: '#app-switcher'
+                    });
+                };
+                if (NL.AppSwitcher) {
+                    initialise();
+                } else {
+                    NL.onInit = initialise;
+                }
+            }(window.NL = (window.NL || {})));
+            window.NL.isUserAdmin = false</script></div><div class="aui-header-primary"><h1 id="logo" class="aui-header-logo aui-header-logo-custom"><a href="https://wiki.corp-apps.com/"><img src="./One git clone is enough! - Delta Ecomm - Confluence (Wiki)_files/confluence-logo.png" alt="Confluence (Wiki)" data-aui-responsive-header-index="0"><span class="aui-header-logo-text">Confluence (Wiki)</span></a></h1><ul class="aui-nav __skate" style="width: auto;">
+                            <li>
+            
+        
+        
+<a id="space-menu-link" class="aui-nav-link aui-dropdown2-trigger" href="https://wiki.corp-apps.com/pages/viewpage.action?pageId=78815562#" aria-haspopup="true" aria-owns="space-menu-link-content" title="Spaces"><span class="browse">Spaces</span><span class="aui-icon-dropdown"></span></a><div id="space-menu-link-content" class="aui-dropdown2 aui-style-default aui-dropdown2-in-header" aria-hidden="false"></div>
+        </li>
+                    <li>
+            
+    
+            
+<a id="forums-link" href="https://wiki.corp-apps.com/pages/viewpage.action?pageId=78815562#" class="aui-nav-imagelink aui-nav-link aui-dropdown2-trigger" title="Forums" aria-haspopup="true" aria-owns="forums-menu-link-content">
+            <span>Forums</span>
+    <nav id="forums-menu-link-content" class="aui-dropdown2 aui-style-default" aria-hidden="true"><div class="aui-dropdown2-section"><strong>Recent Forums</strong><ul id="forums-header-links-menu-global" class="aui-list-truncate section-leading first"></ul></div></nav></a>
+        </li>
+                    <li>
+            
+    
+        
+<a id="people-directory-link" href="https://wiki.corp-apps.com/browsepeople.action" class=" aui-nav-imagelink" title="People">
+            <span>People</span>
+    </a>
+        </li>
+                    <li>
+            
+    
+        
+<a href="https://wiki.corp-apps.com/calendar/mycalendar.action" class=" aui-nav-imagelink" title="Calendars">
+            <span>Calendars</span>
+    </a>
+        </li>
+                                            <li style="display: none;"><a id="aui-responsive-header-dropdown-trigger-0" class=" aui-dropdown2-trigger __skate" aria-owns="aui-responsive-header-dropdown-content-0" aria-controls="aui-responsive-header-dropdown-content-0" aria-haspopup="true" data-aui-trigger="" href="https://wiki.corp-apps.com/pages/viewpage.action?pageId=78815562#">More<span class="icon aui-icon-dropdown"></span></a><div id="aui-responsive-header-dropdown-content-0" class="aui-dropdown2 aui-style-default"><div class="aui-dropdown2-section"><ul id="aui-responsive-header-dropdown-list-0"></ul></div></div></li><li>
+            
+    
+            
+<a id="create-page-button" href="https://wiki.corp-apps.com/pages/createpage.action?spaceKey=ECOMMDEV" class="aui-button aui-style aui-button-primary aui-nav-imagelink" title="Create Content (c)">
+            <span>Create</span>
+    </a>
+        </li>
+        </ul>
+</div><div class="aui-header-secondary"><ul class="aui-nav __skate">
+                        <li>
+        <form id="quick-search" class="aui-quicksearch dont-default-focus header-quicksearch" action="https://wiki.corp-apps.com/dosearchsite.action" method="get"><fieldset><label for="quick-search-query" class="assistive">Quick Search</label><input id="quick-search-query" class="text app-search search quick-search-query" type="text" accesskey="q" autocomplete="off" name="queryString" title="Quick Search (/or g , g)" placeholder="Search"><input id="quick-search-submit" class="quick-search-submit" type="submit" value="Search"><div class="aui-dd-parent quick-nav-drop-down"></div></fieldset></form>
+    </li>
+        <li>
+            
+        <a id="help-menu-link" class="aui-nav-link aui-dropdown2-trigger" href="https://wiki.corp-apps.com/pages/viewpage.action?pageId=78815562#" aria-haspopup="true" aria-owns="help-menu-link-content" title="Help">
+        <span class="aui-icon aui-icon-small aui-iconfont-help">Help</span>
+    </a>
+    <nav id="help-menu-link-content" class="aui-dropdown2 aui-style-default" aria-hidden="true">
+                    <div class="aui-dropdown2-section">
+                                <ul id="help-menu-link-leading" class="aui-list-truncate section-leading first">
+                                            <li>
+        
+            
+<a id="confluence-help-link" href="https://docs.atlassian.com/confluence/docs-58/Getting+Help+And+Support" class="    " title="Visit the Confluence documentation home" target="_blank">
+        Online Help
+</a>
+</li>
+                                            <li>
+    
+                
+<a id="keyboard-shortcuts-link" href="https://wiki.corp-apps.com/pages/viewpage.action?pageId=78815562#" class="    " title="View available keyboard shortcuts (?)">
+        Keyboard Shortcuts
+</a>
+</li>
+                                            <li>
+    
+            
+<a id="feed-builder-link" href="https://wiki.corp-apps.com/dashboard/configurerssfeed.action" class="    " title="Create your custom RSS feed.">
+        Feed Builder
+</a>
+</li>
+                                            <li>
+    
+            
+<a id="whats-new-menu-link" href="https://docs.atlassian.com/confluence/docs-58/whatsnew/iframe?od=false&a=false" class="    " title="">
+        What’s new
+</a>
+</li>
+                                            <li>
+    
+                
+<a id="gadget-directory-link" href="https://wiki.corp-apps.com/pages/viewpage.action?pageId=78815562#" class="   user-item administration-link " title="Browse gadgets provided by Confluence">
+        Available Gadgets
+</a>
+</li>
+                                            <li>
+    
+            
+<a id="confluence-about-link" href="https://wiki.corp-apps.com/aboutconfluencepage.action" class="    " title="Get more information about Confluence">
+        About Confluence
+</a>
+</li>
+                                    </ul>
+            </div>
+            </nav>
+    
+    </li>
+        <li>
+                
+    
+    </li>
+        <li>
+                    
+        
+            
+<a id="notifications-anchor" href="https://wiki.corp-apps.com/pages/viewpage.action?pageId=78815562#" class="mw-anchor aui-nav-imagelink unread" title="Open Notifications (g , n)"><div class="badge-i aui-icon aui-icon-small aui-iconfont-workbox"></div><span class="badge-w"><span class="badge">8</span></span></a>
+    
+    </li>
+        <li>
+                                            
+        <a id="user-menu-link" class="aui-dropdown2-trigger " aria-haspopup="true" aria-owns="user-menu-link-content" data-username="oojewale" href="https://wiki.corp-apps.com/pages/viewpage.action?pageId=78815562#" title="Olusegun Ojewale">
+                    <div class="aui-avatar aui-avatar-small">
+                <div class="aui-avatar-inner">
+                    <img src="./One git clone is enough! - Delta Ecomm - Confluence (Wiki)_files/default.png">
+                </div>
+            </div>
+            <span class="aui-icon-dropdown"></span>
+        </a>
+        <nav id="user-menu-link-content" class="aui-dropdown2 aui-style-default">
+                            <div class="aui-dropdown2-section">
+                    <ul id="user-menu-link-user-preferences" class="aui-list-truncate section-user-preferences first">
+                                                    <li>
+        
+            
+<a id="create-personal-space-link" href="https://wiki.corp-apps.com/spaces/createpersonalspace.action" class="   user-item personal-space create-personal-space-link " title="">
+        Add Personal Space…
+</a>
+</li>
+                                                    <li>
+    
+            
+<a id="view-user-history-link" href="https://wiki.corp-apps.com/users/viewuserhistory.action" class="   user-item user-history popup-link " title=" (g , r)">
+        Recently Viewed
+</a>
+</li>
+                                            </ul>
+                </div>
+                            <div class="aui-dropdown2-section">
+                    <ul id="user-menu-link-user-content" class="aui-list-truncate section-user-content">
+                                                    <li>
+    
+            
+<a id="view-user-profile-link" href="https://wiki.corp-apps.com/users/viewmyprofile.action" class="   user-item user-profile " title="">
+        Profile
+</a>
+</li>
+                                                    <li>
+    
+            
+<a id="view-mytasks-link" href="https://wiki.corp-apps.com/plugins/inlinetasks/mytasks.action" class="   user-item list-user-status " title="">
+        Tasks
+</a>
+</li>
+                                                    <li>
+    
+            
+<a id="user-favourites-link" href="https://wiki.corp-apps.com/users/viewmyfavourites.action" class="   user-item " title="">
+        Favourites
+</a>
+</li>
+                                                    <li>
+    
+            
+<a id="user-watches-link" href="https://wiki.corp-apps.com/users/viewnotifications.action" class="   user-item " title="">
+        Watches
+</a>
+</li>
+                                                    <li>
+    
+            
+<a id="user-drafts-link" href="https://wiki.corp-apps.com/users/viewmydrafts.action" class="   user-item " title="">
+        Drafts
+</a>
+</li>
+                                                    <li>
+    
+            
+<a id="user-network-link" href="https://wiki.corp-apps.com/users/viewfollow.action?username=oojewale" class="   follow-link " title="">
+        Network
+</a>
+</li>
+                                                    <li>
+    
+            
+<a id="user-settings-link" href="https://wiki.corp-apps.com/users/viewmysettings.action" class="   user-item " title="">
+        Settings
+</a>
+</li>
+                                                    <li>
+    
+            
+<a id="upm-requests-link" href="https://wiki.corp-apps.com/plugins/servlet/upm/requests?source=header_user" class="    " title="">
+        Atlassian Marketplace
+</a>
+</li>
+                                            </ul>
+                </div>
+                            <div class="aui-dropdown2-section">
+                    <ul id="user-menu-link-user-operations" class="aui-list-truncate section-user-operations">
+                                                    <li>
+    
+            
+<a id="logout-link" href="https://wiki.corp-apps.com/logout.action" class="   user-item logout-link " title="">
+        Log Out
+</a>
+</li>
+                                            </ul>
+                </div>
+                    </nav>
+                    
+    </li>
+    </ul>
+</div></div><!-- .aui-header-inner--></nav><!-- .aui-header -->
+    <br class="clear">
+</header>
+
+    
+    	<div class="ia-splitter">
+    		<div class="ia-splitter-left">
+    			<div class="ia-fixed-sidebar" style="width: 285px; visibility: visible; top: 0px; left: 0px;">
+    				
+	    	<div class="acs-side-bar ia-scrollable-section"><div class="acs-side-bar-space-info tipsy-enabled" data-configure-tooltip="Edit space details"><div class="avatar"><div class="space-logo " data-key="ECOMMDEV" data-name="Delta Ecomm" data-entity-type="confluence.space"><div class="avatar-img-container"><div class="avatar-img-wrapper"><a href="https://wiki.corp-apps.com/display/ECOMMDEV?src=sidebar" title="Delta Ecomm"><img class="avatar-img" src="./One git clone is enough! - Delta Ecomm - Confluence (Wiki)_files/ECOMMDEV" alt="Delta Ecomm"></a></div></div></div></div><div class="name"><a href="https://wiki.corp-apps.com/display/ECOMMDEV?src=sidebar" title="Delta Ecomm">Delta Ecomm</a></div><div class="flyout-handle icon"></div></div><div class="acs-side-bar-content"><div class="acs-nav-wrapper"><div class="acs-nav" data-has-create-permission="false" data-quick-links-state="null" data-nav-type="pages"><div class="acs-nav-sections"><div class="main-links-section "><ul class="acs-nav-list"><li class="acs-nav-item wiki" data-collector-key="spacebar-pages"><a class="acs-nav-item-link tipsy-enabled" href="https://wiki.corp-apps.com/collector/pages.action?key=ECOMMDEV&src=sidebar" data-collapsed-tooltip="Pages"><span class="icon"></span><span class="acs-nav-item-label">Pages</span></a></li><li class="acs-nav-item blog current-item" data-collector-key="spacebar-blogs"><a class="acs-nav-item-link tipsy-enabled" href="https://wiki.corp-apps.com/pages/viewrecentblogposts.action?key=ECOMMDEV&src=sidebar" data-collapsed-tooltip="Blog"><span class="icon"></span><span class="acs-nav-item-label">Blog</span></a></li><li class="acs-nav-item space-calendar-sidebar-link" data-collector-key="space-calendar-sidebar-link"><a class="acs-nav-item-link tipsy-enabled" href="https://wiki.corp-apps.com/display/ECOMMDEV/calendar?src=sidebar" data-collapsed-tooltip="Calendars"><span class="icon"></span><span class="acs-nav-item-label">Calendars</span></a></li></ul></div><div class="quick-links-wrapper"><h5 class="ia-quick-links-header-title">Space shortcuts</h5><div class="quick-links-section tipsy-enabled " data-collapsed-tooltip="Space shortcuts"><ul class="acs-nav-list"><li class="acs-nav-item pinned_page blueprint kb-troubleshooting-article"><a class="acs-nav-item-link tipsy-enabled" href="https://wiki.corp-apps.com/display/ECOMMDEV/Troubleshooting+articles?src=spaceshortcut" data-collapsed-tooltip="null"><span class="icon"></span><span class="acs-nav-item-label">Troubleshooting articles</span></a></li><li class="acs-nav-item pinned_page blueprint kb-how-to-article"><a class="acs-nav-item-link tipsy-enabled" href="https://wiki.corp-apps.com/display/ECOMMDEV/How-to+articles?src=spaceshortcut" data-collapsed-tooltip="null"><span class="icon"></span><span class="acs-nav-item-label">How-to articles</span></a></li><li class="acs-nav-item pinned_page blueprint forums-index"><a class="acs-nav-item-link tipsy-enabled" href="https://wiki.corp-apps.com/display/ECOMMDEV/Community+Forum?src=spaceshortcut" data-collapsed-tooltip="null"><span class="icon"></span><span class="acs-nav-item-label">Community Forum</span></a></li><li class="acs-nav-item pinned_page blueprint shared-links"><a class="acs-nav-item-link tipsy-enabled" href="https://wiki.corp-apps.com/display/ECOMMDEV/Shared+links?src=spaceshortcut" data-collapsed-tooltip="null"><span class="icon"></span><span class="acs-nav-item-label">Shared links</span></a></li></ul></div></div></div></div></div><div class="ia-secondary-container tipsy-enabled" data-tree-type="blogs"><div class="ia-secondary-header"><h5 class="ia-secondary-header-title blog"><span class="icon"></span><span class="label">Blog</span></h5></div><div class="ia-secondary-content"><ul class="ia-pagetree"><li class="acs-tree-item opened grouping" data-group-type="1" data-group-value="2015"><span class="icon icon-section-opened"></span><span class="node-title navigation-pseudo-link">2015</span><ul class="ia-subpagetree"><li class="acs-tree-item closed grouping" data-group-type="2" data-group-value="10/2015"><span class="icon icon-section-closed"></span><span class="node-title navigation-pseudo-link">November</span></li><li class="acs-tree-item closed grouping" data-group-type="2" data-group-value="9/2015"><span class="icon icon-section-closed"></span><span class="node-title navigation-pseudo-link">October</span></li><li class="acs-tree-item closed grouping" data-group-type="2" data-group-value="8/2015"><span class="icon icon-section-closed"></span><span class="node-title navigation-pseudo-link">September</span></li><li class="acs-tree-item closed grouping" data-group-type="2" data-group-value="7/2015"><span class="icon icon-section-closed"></span><span class="node-title navigation-pseudo-link">August</span></li><li class="acs-tree-item closed grouping" data-group-type="2" data-group-value="6/2015"><span class="icon icon-section-closed"></span><span class="node-title navigation-pseudo-link">July</span></li><li class="acs-tree-item closed grouping" data-group-type="2" data-group-value="5/2015"><span class="icon icon-section-closed"></span><span class="node-title navigation-pseudo-link">June</span></li><li class="acs-tree-item opened grouping" data-group-type="2" data-group-value="4/2015"><span class="icon icon-section-opened"></span><span class="node-title navigation-pseudo-link">May</span><ul class="ia-subpagetree"><li class="acs-tree-item leaf" data-page-id="78821684"><a href="https://wiki.corp-apps.com/display/ECOMMDEV/2015/05/28/Faking+IDV+responses?src=contextnav"><span class="icon "></span><span class="node-title navigation-pseudo-link">Faking IDV responses</span></a></li><li class="acs-tree-item leaf" data-page-id="78820180"><a href="https://wiki.corp-apps.com/display/ECOMMDEV/2015/05/26/NoLimits+Greatest+Hits?src=contextnav"><span class="icon "></span><span class="node-title navigation-pseudo-link">NoLimits Greatest Hits</span></a></li><li class="acs-tree-item leaf" data-page-id="78816601"><a href="https://wiki.corp-apps.com/display/ECOMMDEV/2015/05/21/Browser+cache+strategy+for+Cashier+2.0+static+assets?src=contextnav"><span class="icon "></span><span class="node-title navigation-pseudo-link">Browser cache strategy for Cashier 2.0 static assets</span></a></li><li class="acs-tree-item leaf" data-page-id="78816269"><a href="https://wiki.corp-apps.com/display/ECOMMDEV/2015/05/20/Unit+testing+Spring+MVC+Controllers?src=contextnav"><span class="icon "></span><span class="node-title navigation-pseudo-link">Unit testing Spring MVC Controllers</span></a></li><li class="acs-tree-item leaf" data-page-id="78816138"><a href="https://wiki.corp-apps.com/display/ECOMMDEV/2015/05/20/Flow+-+Work+In+Progress?src=contextnav"><span class="icon "></span><span class="node-title navigation-pseudo-link">Flow - Work In Progress</span></a></li><li class="acs-tree-item leaf" data-page-id="78815562"><a href="https://wiki.corp-apps.com/pages/viewpage.action?pageId=78815562&src=contextnav"><span class="icon "></span><span class="node-title navigation-pseudo-link">One git clone is enough!</span></a></li><li class="acs-tree-item leaf" data-page-id="78815549"><a href="https://wiki.corp-apps.com/display/ECOMMDEV/2015/05/19/Casher+2.0+UAT?src=contextnav"><span class="icon "></span><span class="node-title navigation-pseudo-link">Casher 2.0 UAT</span></a></li><li class="acs-tree-item leaf" data-page-id="78815084"><a href="https://wiki.corp-apps.com/display/ECOMMDEV/2015/05/19/The+boquerones+logo?src=contextnav"><span class="icon "></span><span class="node-title navigation-pseudo-link">The boquerones logo</span></a></li><li class="acs-tree-item leaf" data-page-id="78815030"><a href="https://wiki.corp-apps.com/display/ECOMMDEV/2015/05/19/Sprint+52+-+Deployment+summary?src=contextnav"><span class="icon "></span><span class="node-title navigation-pseudo-link">Sprint 52 - Deployment summary</span></a></li><li class="acs-tree-item leaf" data-page-id="78815594"><a href="https://wiki.corp-apps.com/display/ECOMMDEV/2015/05/19/Git+rebase?src=contextnav"><span class="icon "></span><span class="node-title navigation-pseudo-link">Git rebase</span></a></li><li class="acs-tree-item leaf" data-page-id="78813999"><a href="https://wiki.corp-apps.com/display/ECOMMDEV/2015/05/15/Communities+of+Practice?src=contextnav"><span class="icon "></span><span class="node-title navigation-pseudo-link">Communities of Practice</span></a></li><li class="acs-tree-item leaf" data-page-id="78813278"><a href="https://wiki.corp-apps.com/display/ECOMMDEV/2015/05/14/Test?src=contextnav"><span class="icon "></span><span class="node-title navigation-pseudo-link">Test</span></a></li><li class="acs-tree-item leaf" data-page-id="78811769"><a href="https://wiki.corp-apps.com/display/ECOMMDEV/2015/05/13/Ecomm+Bot+-+Draft?src=contextnav"><span class="icon "></span><span class="node-title navigation-pseudo-link">Ecomm Bot - Draft</span></a></li><li class="acs-tree-item leaf" data-page-id="78811584"><a href="https://wiki.corp-apps.com/display/ECOMMDEV/2015/05/12/Portfolio+views?src=contextnav"><span class="icon "></span><span class="node-title navigation-pseudo-link">Portfolio views</span></a></li><li class="acs-tree-item leaf" data-page-id="78811557"><a href="https://wiki.corp-apps.com/display/ECOMMDEV/2015/05/12/Balance+retrieval+in+ecomm+apps?src=contextnav"><span class="icon "></span><span class="node-title navigation-pseudo-link">Balance retrieval in ecomm apps</span></a></li><li class="acs-tree-item leaf" data-page-id="78811532"><a href="https://wiki.corp-apps.com/display/ECOMMDEV/2015/05/12/Improving+performance+with+Hibernate%27s+lazy+fetching?src=contextnav"><span class="icon "></span><span class="node-title navigation-pseudo-link">Improving performance with Hibernate's lazy fetching</span></a></li><li class="acs-tree-item leaf" data-page-id="78811398"><a href="https://wiki.corp-apps.com/display/ECOMMDEV/2015/05/12/Remaining+C2.0+UX+Work?src=contextnav"><span class="icon "></span><span class="node-title navigation-pseudo-link">Remaining C2.0 UX Work</span></a></li><li class="acs-tree-item leaf" data-page-id="78811332"><a href="https://wiki.corp-apps.com/display/ECOMMDEV/2015/05/12/Hello+World?src=contextnav"><span class="icon "></span><span class="node-title navigation-pseudo-link">Hello World</span></a></li><li class="acs-tree-item leaf" data-page-id="78811144"><a href="https://wiki.corp-apps.com/display/ECOMMDEV/2015/05/12/Tracking+visits+to+your+blog+posts?src=contextnav"><span class="icon "></span><span class="node-title navigation-pseudo-link">Tracking visits to your blog posts</span></a></li><li class="acs-tree-item leaf" data-page-id="78810749"><a href="https://wiki.corp-apps.com/pages/viewpage.action?pageId=78810749&src=contextnav"><span class="icon "></span><span class="node-title navigation-pseudo-link">Spring Cleanup! Warning Shot!</span></a></li><li class="acs-tree-item leaf" data-page-id="78810690"><a href="https://wiki.corp-apps.com/display/ECOMMDEV/2015/05/11/Hello+World?src=contextnav"><span class="icon "></span><span class="node-title navigation-pseudo-link">Hello World</span></a></li><li class="acs-tree-item leaf" data-page-id="78810664"><a href="https://wiki.corp-apps.com/display/ECOMMDEV/2015/05/11/ALICE+-+Timeline?src=contextnav"><span class="icon "></span><span class="node-title navigation-pseudo-link">ALICE - Timeline</span></a></li><li class="acs-tree-item leaf" data-page-id="78810616"><a href="https://wiki.corp-apps.com/display/ECOMMDEV/2015/05/11/Cashier+2.0+navigation+refactoring?src=contextnav"><span class="icon "></span><span class="node-title navigation-pseudo-link">Cashier 2.0 navigation refactoring</span></a></li><li class="acs-tree-item leaf" data-page-id="78810553"><a href="https://wiki.corp-apps.com/display/ECOMMDEV/2015/05/11/Consolidate+headlines+from+exploratory+testing+on+the+Test+Library?src=contextnav"><span class="icon "></span><span class="node-title navigation-pseudo-link">Consolidate headlines from exploratory testing on the Test Library</span></a></li><li class="acs-tree-item leaf" data-page-id="78810089"><a href="https://wiki.corp-apps.com/display/ECOMMDEV/2015/05/08/Montreal+wall+board+and+monitor?src=contextnav"><span class="icon "></span><span class="node-title navigation-pseudo-link">Montreal wall board and monitor</span></a></li><li class="acs-tree-item leaf" data-page-id="78810066"><a href="https://wiki.corp-apps.com/display/ECOMMDEV/2015/05/08/Sprint+52+defects?src=contextnav"><span class="icon "></span><span class="node-title navigation-pseudo-link">Sprint 52 defects</span></a></li><li class="acs-tree-item leaf" data-page-id="78810031"><a href="https://wiki.corp-apps.com/display/ECOMMDEV/2015/05/08/Testing+Purge+on+LINT?src=contextnav"><span class="icon "></span><span class="node-title navigation-pseudo-link">Testing Purge on LINT</span></a></li><li class="acs-tree-item leaf" data-page-id="78810030"><a href="https://wiki.corp-apps.com/display/ECOMMDEV/2015/05/08/Malaga+Sprint+Board?src=contextnav"><span class="icon "></span><span class="node-title navigation-pseudo-link">Malaga Sprint Board</span></a></li><li class="acs-tree-item leaf" data-page-id="78810016"><a href="https://wiki.corp-apps.com/display/ECOMMDEV/2015/05/08/Boards?src=contextnav"><span class="icon "></span><span class="node-title navigation-pseudo-link">Boards</span></a></li><li class="acs-tree-item leaf" data-page-id="78809995"><a href="https://wiki.corp-apps.com/display/ECOMMDEV/2015/05/08/Recommended+RSS+readers?src=contextnav"><span class="icon "></span><span class="node-title navigation-pseudo-link">Recommended RSS readers</span></a></li><li class="acs-tree-item leaf" data-page-id="78809964"><a href="https://wiki.corp-apps.com/display/ECOMMDEV/2015/05/08/Saying+goodbye+to+emails?src=contextnav"><span class="icon "></span><span class="node-title navigation-pseudo-link">Saying goodbye to emails</span></a></li><li class="acs-tree-item leaf" data-page-id="78809915"><a href="https://wiki.corp-apps.com/display/ECOMMDEV/2015/05/08/Testing+my+feeder?src=contextnav"><span class="icon "></span><span class="node-title navigation-pseudo-link">Testing my feeder</span></a></li></ul></li><li class="acs-tree-item closed grouping" data-group-type="2" data-group-value="3/2015"><span class="icon icon-section-closed"></span><span class="node-title navigation-pseudo-link">April</span></li></ul></li></ul></div></div></div><div class="hidden"><a href="https://wiki.corp-apps.com/collector/pages.action?key=ECOMMDEV&src=sidebar" id="space-pages-link" title=" (g , s)"></a><script type="text/x-template" title="logo-config-content"><h2>Space Details</h2><div class="personal-space-logo-hint">Your profile picture is used as the logo for your personal space. <a href="/users/profile/editmyprofilepicture.action" target="_blank">Change your profile picture</a>.</div></script></div></div><div class="space-tools-section"><div id="space-tools-menu-additional-items" class="hidden"><div data-label="Browse pages" data-class="" data-href="/pages/reorderpages.action?key=ECOMMDEV">Browse pages</div></div><div id="space-tools-dd-dummy"></div><a id="space-tools-menu-trigger" class="aui-button aui-button-subtle aui-dropdown2-trigger tipsy-enabled" aria-owns="space-tools-dd-dummy" data-collapsed-tooltip="Space tools"><span class="aui-icon aui-icon-small aui-iconfont-configure">Configure</span><span class="label">Space tools</span></a><a class="expand-collapse-trigger" data-tooltip="Collapse sidebar ( [ )"></a></div>
+    
+    			<div class="ia-splitter-handle tipsy-enabled" data-tooltip="Collapse sidebar ( [ )" title=" ([)"><div class="ia-splitter-handle-highlight"></div></div></div>
+    		</div>
+        <!-- \#header -->
+
+        
+        <div id="main" class=" aui-page-panel" style="margin-left: 285px;">
+                <div id="main-header">
+            
+    <div id="navigation" class="content-navigation view">
+                    <ul class="ajs-menu-bar">
+                                                                    <li class="ajs-button normal">
+
+        
+        
+                                            
+    
+    
+    <a id="watch-content-button" href="https://wiki.corp-apps.com/pages/viewpage.action?watchingPage=false&watchingSpace=false&watchingBlogs=false&isAdmin=false&isBlogPost=true" rel="nofollow" class="aui-button aui-button-subtle watch-menu" title="Watch (w)">
+                <span>
+                            <span class="aui-icon aui-icon-small aui-iconfont-unwatch"></span>
+                        <u>W</u>atch
+        </span>    </a>
+</li>
+                                            <li class="ajs-button normal">
+
+        
+            
+                                            
+    
+    
+    <a id="shareContentLink" href="https://wiki.corp-apps.com/pages/viewpage.action?pageId=78815562#" rel="nofollow" class="aui-button aui-button-subtle share" title="Share this content by emailing other users (s)">
+                <span>
+                            <span class="aui-icon aui-icon-small aui-iconfont-share"></span>
+                        <u>S</u>hare
+        </span>    </a>
+</li>
+                                
+        <li class="normal ajs-menu-item">
+        <a id="add-menu-link" class="add hidden aui-button aui-button-subtle ajs-menu-title aui-dropdown2-trigger" href="https://wiki.corp-apps.com/pages/viewpage.action?pageId=78815562#" aria-haspopup="true" aria-owns="add-menu" data-container="#navigation">
+            <span>
+                                    <span class="aui-icon aui-icon-small aui-iconfont-add"></span>
+                                Add
+            </span>
+        </a>         <div id="add-menu" class="aui-dropdown2 aui-style-default">
+                            <ul id="add-menu-page" class="section-page first aui-dropdown2-section">
+                                            <li>
+
+    
+        
+                                            
+    
+    
+    <a id="add-comment-menu-link" href="https://wiki.corp-apps.com/pages/viewpage.action?pageId=78815562&showComments=true&showCommentArea=true#addcomment" rel="nofollow" class="add-comment" title="Add a Comment" style="display: none;">
+                <span>
+                        Comment
+        </span>    </a>
+</li>
+                                </ul>
+                    </div>
+    </li>
+                    
+        <li class="normal ajs-menu-item">
+        <a id="action-menu-link" class="action aui-dropdown2-trigger-arrowless aui-button aui-button-subtle ajs-menu-title aui-dropdown2-trigger" href="https://wiki.corp-apps.com/pages/viewpage.action?pageId=78815562#" aria-haspopup="true" aria-owns="action-menu" data-container="#navigation">
+            <span>
+                                    <span class="aui-icon aui-icon-small aui-iconfont-more"></span>
+                                
+            </span>
+        </a>         <div id="action-menu" class="aui-dropdown2 aui-style-default most-right-menu-item">
+                            <ul id="action-menu-primary" class="section-primary first aui-dropdown2-section">
+                                            <li>
+
+    
+        
+                                            
+    
+    
+    <a id="view-attachments-link" href="https://wiki.corp-apps.com/pages/viewpageattachments.action?pageId=78815562" rel="nofollow" class="action-view-attachments" accesskey="t" title="View Attachments (t)">
+                <span>
+                        A<u>t</u>tachments (2)
+        </span>    </a>
+</li>
+                                        <li>
+
+    
+        
+                                            
+    
+    
+    <a id="action-view-history-link" href="https://wiki.corp-apps.com/pages/viewpreviousversions.action?pageId=78815562" rel="nofollow" class="action-view-history" title="">
+                <span>
+                        Page History
+        </span>    </a>
+</li>
+                                        <li>
+
+    
+        
+                                            
+    
+    
+    <a id="action-page-permissions-link" href="https://wiki.corp-apps.com/pages/viewinfo.action?pageId=78815562" rel="nofollow" class="action-page-permissions" title="Edit restrictions">
+                <span>
+                        Restrictions
+        </span>    </a>
+</li>
+                                </ul>
+                            <ul id="action-menu-marker" class="section-marker aui-dropdown2-section">
+                                            <li>
+
+    
+        
+                                            
+    
+    
+    <a id="page-favourite" href="https://wiki.corp-apps.com/labels/addfavourite.action?entityId=78815562&atl_token=e85b1f01b8416cd86f0ea33befcfc4218088a6b1" rel="nofollow" class="action-page-favourite" title="">
+                <span>
+                        Favourite
+        </span>    </a>
+</li>
+                                </ul>
+                            <ul id="action-menu-secondary" class="section-secondary aui-dropdown2-section">
+                                            <li>
+
+    
+        
+                                            
+    
+    
+    <a id="view-page-info-link" href="https://wiki.corp-apps.com/pages/viewinfo.action?pageId=78815562" rel="nofollow" class="action-view-info" title="">
+                <span>
+                        Page Information
+        </span>    </a>
+</li>
+                                        <li>
+
+    
+            
+                                            
+    
+    
+    <a id="view-resolved-comments" href="https://wiki.corp-apps.com/pages/viewpage.action?pageId=78815562#" rel="nofollow" class="" title="">
+                <span>Resolved comments (0)</span>    </a>
+</li>
+                                        <li>
+
+    
+        
+                                            
+    
+    
+    <a id="link-to-page-link" href="https://wiki.corp-apps.com/pages/viewinfo.action?pageId=78815562" rel="nofollow" class="" title="Link to this Page (k)">
+                <span>
+                        Link to this Page…
+        </span>    </a>
+</li>
+                                        <li>
+
+    
+        
+                                            
+    
+    
+    <a id="action-source-editor-view-storage-link" href="https://wiki.corp-apps.com/plugins/viewstorage/viewpagestorage.action?pageId=78815562" rel="nofollow" class="action-view-storage view-storage-link popup-link" title="">
+                <span>
+                        View Storage Format
+        </span>    </a>
+</li>
+                                        <li>
+
+    
+        
+                                            
+    
+    
+    <a id="action-view-source-link" href="https://wiki.corp-apps.com/plugins/viewsource/viewpagesrc.action?pageId=78815562" rel="nofollow" class="action-view-source popup-link" title="">
+                <span>
+                        View Source
+        </span>    </a>
+</li>
+                                        <li>
+
+    
+        
+                                            
+    
+    
+    <a id="action-export-pdf-link" href="https://wiki.corp-apps.com/spaces/flyingpdf/pdfpageexport.action?pageId=78815562" rel="nofollow" class="" title="">
+                <span>
+                        Export to PDF
+        </span>    </a>
+</li>
+                                </ul>
+                    </div>
+    </li>
+            </ul>
+    </div>
+
+            
+            <div id="title-heading" class="pagetitle with-breadcrumbs">
+                
+                                    <div id="breadcrumb-section">
+                        
+    
+    
+    <ol id="breadcrumbs">
+                                        
+                        
+        <li class="first">
+                        
+                            <span class=""><a href="https://wiki.corp-apps.com/pages/viewrecentblogposts.action?key=ECOMMDEV&src=breadcrumbs-collector">Blog</a></span>
+                                                                    
+                        
+        </li><li>
+                        
+                            <span class="">2015</span>
+                                                                    
+                        
+        </li><li>
+                        
+                            <span class=""><a href="https://wiki.corp-apps.com/display/ECOMMDEV/2015/05?src=breadcrumbs">May</a></span>
+                                                                    
+                        
+        </li><li>
+                        
+                            <span class="">19</span>
+                                                    </li></ol>
+
+
+                    </div>
+                
+                
+        <a href="https://wiki.corp-apps.com/pages/viewpage.action?pageId=78815562#page-banner-end" class="assistive">Skip to end of banner</a>
+<div id="page-banner-start" class="assistive"></div>
+
+                    
+            <div id="page-metadata-banner" style="visibility: visible;"><ul class="banner"><li id="system-content-items" class="noprint"><a href="" title="Restrictions apply" id="content-metadata-page-restrictions" class="hidden"><img class="page-banner-item-icon" src="./One git clone is enough! - Delta Ecomm - Confluence (Wiki)_files/red_padlock.png" style="height: 16px; width: 16px;"></a><a href="https://wiki.corp-apps.com/pages/viewpageattachments.action?pageId=78815562&metadataLink=true" title="2 attachments" id="content-metadata-attachments"><img class="page-banner-item-icon" src="./One git clone is enough! - Delta Ecomm - Confluence (Wiki)_files/grey_attach.png" style="height: 16px; width: 16px;"></a></li><li class="page-metadata-item noprint has-button" id="content-metadata-jira-wrapper"><a href="" title="" id="content-metadata-jira" class="aui-button aui-button-subtle content-metadata-jira tipsy-disabled hidden"><span>JIRA links</span></a></li></ul></div>
+            
+
+<a href="https://wiki.corp-apps.com/pages/viewpage.action?pageId=78815562#page-banner-start" class="assistive">Go to start of banner</a>
+<div id="page-banner-end" class="assistive"></div>
+    
+
+                <h1 id="title-text" class="with-breadcrumbs">
+                                                <a href="./One git clone is enough! - Delta Ecomm - Confluence (Wiki)_files/One git clone is enough! - Delta Ecomm - Confluence (Wiki).html">One git clone is enough!</a>
+                                    </h1>
+            </div>
+        </div><!-- \#main-header -->
+        
+        
+
+        <div id="sidebar-container">
+                                                </div><!-- \#sidebar-container -->
+
+        
+    
+    
+
+        
+
+
+
+
+        
+
+
+    
+    
+        
+    
+    
+                    
+    
+
+                        
+    
+    
+
+    
+
+
+
+
+                
+
+<div id="content" class="blogpost view">
+    
+
+
+<div id="action-messages">
+                        </div>
+
+
+
+        <script type="text/x-template" title="searchResultsGrid">
+    <table class="aui">
+        <thead>
+            <tr class="header">
+                <th class="search-result-title">Page Title</th>
+                <th class="search-result-space">Space</th>
+                <th class="search-result-date">Updated</th>
+            </tr>
+        </thead>
+    </table>
+</script>
+<script type="text/x-template" title="searchResultsGridCount">
+    <p class="search-result-count">{0}</p>
+</script>
+<script type="text/x-template" title="searchResultsGridRow">
+    <tr class="search-result">
+        <td class="search-result-title"><a href="{1}" class="content-type-{2}"><span>{0}</span></a></td>
+        <td class="search-result-space"><a class="space" href="/display/{4}/" title="{3}">{3}</a></td>
+        <td class="search-result-date"><span class="date" title="{6}">{5}</span></td>
+    </tr>
+</script>
+            
+                                    
+                
+                                
+    
+                
+
+            <a href="https://wiki.corp-apps.com/pages/viewpage.action?pageId=78815562#page-metadata-end" class="assistive">Skip to end of metadata</a>
+<div id="page-metadata-start" class="assistive"></div>
+
+    <div class="page-metadata">
+        <ul>
+            <li class="page-metadata-modification-info">
+                
+        
+    
+        
+    
+        
+            
+            Created by <span class="author">     <a href="https://wiki.corp-apps.com/display/~agretencord" class="url fn confluence-userlink userlink-0" data-username="agretencord" title="" data-user-hover-bound="true">Alex G - Apical Services</a></span> on <a class="last-modified" title="Show changes" href="https://wiki.corp-apps.com/pages/viewpreviousversions.action?pageId=78815562">19-May-2015</a>
+                </li>
+        </ul>
+    </div>
+
+
+<a href="https://wiki.corp-apps.com/pages/viewpage.action?pageId=78815562#page-metadata-start" class="assistive">Go to start of metadata</a>
+<div id="page-metadata-end" class="assistive"></div>
+
+            
+                
+            <div id="main-content" class="wiki-content">
+                                                                
+        <div class="wiki-content">
+            <p>&nbsp;</p><p>Today I want to shine some more light onto a topic that may be a bit daunting if you've used SVN for all your life. Working with branches.</p><p>The git guide already covers it a bit <a href="https://wiki.corp-apps.com/display/BLD/How-To%3A+Working+with+Git#How-To:WorkingwithGit-To:WorkingwithGit-Switchtoabranch">How-To: Working with git - switching branches</a> but I'd like to point out some of the workflows that you may encounter in real life and how they can elegantly work in git.</p><h1 id="Onegitcloneisenough!-TheSVNway">The SVN way</h1><p>You need to be online first and checking out a branch can take a while on a slow network, as it basically re-downloads the whole project again. In SVN you have to check out a branch in a separate directory. You then have several options, none of which sounds great. Import that into eclipse, making sure that you name things appropriately, so the project names don't clash. Or use a different eclipse workspace for the branches and switch eclipse workspaces all the time. Or you rename/copy folders around. Needless to say that this is a major hassle and nobody likes working with branches and it's easy to make mistakes.</p><h1 id="Onegitcloneisenough!-Thegitway">The git way</h1><p>In git, all of this goes away.</p><h2 id="Onegitcloneisenough!-Onefolder">One folder</h2><p>You only need exactly one folder in git and you just keep switching branches within that folder, whenever you need to. This means that you only need to clone once. So even if, theoretically, you had 5GB of data in the repository and had to download it over a slow line over the Atlantic, that's not the end of the world. One developer on the "wrong side of the Atlantic" can download the 5GB and then just share their ".git" directory locally with all other developers. That said, my ecomm library ".git" directory is all of 185MB big.</p><p>Changing branches is a very fast operation in git, since you have a local copy of all branches already anyway and because most branches aren't all that different from master or other branches and git will just replace the few files that need replacing in your working copy. Example:</p><p>Master is on 3.57-SNAPSHOT:</p><div class="code panel pdl" style="border-width: 1px;"><div class="codeContent panelContent pdl">
+<div><div id="highlighter_928304" class="syntaxhighlighter nogutter  java"><div class="toolbar"><span><a href="https://wiki.corp-apps.com/pages/viewpage.action?pageId=78815562#" class="toolbar_item command_help help">?</a></span></div><table border="0" cellpadding="0" cellspacing="0"><tbody><tr><td class="code"><div class="container" title="Hint: double-click to select code"><div class="line number1 index0 alt2"><code class="java plain">ecomm$ time git checkout ecomm-</code><code class="java value">3.56</code><code class="java plain">.x</code></div><div class="line number2 index1 alt1"><code class="java plain">Switched to branch </code><code class="java string">'ecomm-3.56.x'</code></div><div class="line number3 index2 alt2"><code class="java plain">real&nbsp;&nbsp;&nbsp; 0m0.104s</code></div></div></td></tr></tbody></table></div></div>
+</div></div><p>So it took all of 100ms to switch to the branch for our current LINT version to make some change there. This will be the most common cause for you to switch branches probably. Now let's try a really old branch, just to see what happens:</p><div class="code panel pdl" style="border-width: 1px;"><div class="codeContent panelContent pdl">
+<div><div id="highlighter_276714" class="syntaxhighlighter nogutter  java"><div class="toolbar"><span><a href="https://wiki.corp-apps.com/pages/viewpage.action?pageId=78815562#" class="toolbar_item command_help help">?</a></span></div><table border="0" cellpadding="0" cellspacing="0"><tbody><tr><td class="code"><div class="container" title="Hint: double-click to select code"><div class="line number1 index0 alt2"><code class="java plain">ecomm$ time git checkout ecomm-</code><code class="java value">3.30</code><code class="java plain">.x</code></div><div class="line number2 index1 alt1"><code class="java plain">Switched to branch </code><code class="java string">'ecomm-3.30.x'</code></div><div class="line number3 index2 alt2"><code class="java plain">real&nbsp;&nbsp;&nbsp; 0m0.989s</code></div></div></td></tr></tbody></table></div></div>
+</div></div><p>It took all of a whole second to switch to code that is 26 sprints old, or 78 weeks or about 1.5 years.</p><h2 id="Onegitcloneisenough!-Butthisdoesn&#39;tworkwitheclipse!">But this doesn't work with eclipse!</h2><p>I know, "this can't work". When I first switched to git I may have thought the same. It works beautifully though. You just have to accept that you need to change the way you work a bit and once you do, you will notice that it's better! Just learn your tool and take advantage of it. If you try to work against it, it will be a pain, you will be miserable and you will hate it. That's what people said when SVN came along and replaced CVS.</p><p>All you need in eclipse, is exactly one workspace with all your projects in it and you just switch to the branches you need to work with "right now", whenever you need to. So your eclipse can look like this (I use eclipse "Working sets", one per project, as maven module naming will mix them all up otherwise):</p><p><span class="confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size"><img class="confluence-embedded-image confluence-thumbnail image-center" width="300" src="./One git clone is enough! - Delta Ecomm - Confluence (Wiki)_files/Screen Shot 2015-05-19 at 10.02.24 .png" data-image-src="/download/attachments/78815562/Screen%20Shot%202015-05-19%20at%2010.02.24%20.png?version=1&amp;modificationDate=1432050329000&amp;api=v2" data-unresolved-comment-count="0" data-linked-resource-id="78972608" data-linked-resource-version="1" data-linked-resource-type="attachment" data-linked-resource-default-alias="Screen Shot 2015-05-19 at 10.02.24 .png" data-base-url="https://wiki.corp-apps.com" data-linked-resource-content-type="image/png" data-linked-resource-container-id="78815562" data-linked-resource-container-version="1"></span></p><p>Depending on whether you use the eclipse plugin for git or not, you may need to refresh the projects that you switched to another branch. If you use the command line, like me, you do have to refresh the whole project, which is where the working sets come in, so that you can easily refresh everything belonging to the one or two projects that you switched, without having to wait for a refresh on everything on your workspace.</p><p>Note that when you switch a project to another branch, the whole project will be switched. You can't check out just a sub folder and work on that, like you did in SVN. Yes I'm looking at you, I-Shaped QAA. The following image shows how to do it, if you are using the eclipse plugin:</p><p><span class="confluence-embedded-file-wrapper image-center-wrapper confluence-embedded-manual-size"><img class="confluence-embedded-image image-center" width="500" src="./One git clone is enough! - Delta Ecomm - Confluence (Wiki)_files/Screen Shot 2015-05-19 at 10.08.31 .png" data-image-src="/download/attachments/78815562/Screen%20Shot%202015-05-19%20at%2010.08.31%20.png?version=1&amp;modificationDate=1432050329000&amp;api=v2" data-unresolved-comment-count="0" data-linked-resource-id="78972609" data-linked-resource-version="1" data-linked-resource-type="attachment" data-linked-resource-default-alias="Screen Shot 2015-05-19 at 10.08.31 .png" data-base-url="https://wiki.corp-apps.com" data-linked-resource-content-type="image/png" data-linked-resource-container-id="78815562" data-linked-resource-container-version="1"></span></p><p>And that's really all there is to it.</p><p><strong>Note</strong>: The following may or may not be supported in the eclipse git plugin version you use and may or may not be supported in the other graphical tool you are using. The eclipse git plugin is notorious for renaming stuff from their real names too. So the following is described in terms of the command line. You may or may not be able to translate those workflows to whatever graphical tool you are using. I heard <a class="confluence-userlink user-mention userlink-1" data-username="yiguo" href="https://wiki.corp-apps.com/display/~yiguo" data-linked-resource-id="74288890" data-linked-resource-version="1" data-linked-resource-type="userinfo" data-base-url="https://wiki.corp-apps.com" title="" data-user-hover-bound="true">Yiang Guo</a> has a nice Mac tool, so he may be able to help you with trying this out.</p><h2 id="Onegitcloneisenough!-ButIalreadystartedworkingonregressionweekstuff!">But I already started working on regression week stuff!</h2><p>As long as we still have regression week, you may already have started working on regression week tasks, when someone finds a bug and you need to fix it on the LINT branch(es). Your first thought is to clone all the projects again and switch them to the right branch and ... yeah, don't!</p><p>There are two scenarios here.</p><ol><li>You already committed whatever you were working on in master</li><li>or more likely you are in the middle of something and have lots of uncommitted changes, that may not even compile right now and that you can't commit and switch branches.</li></ol><p>In the first case, perfect, just switch branches, nothing to worry about. In the second case, use stash! <a href="https://wiki.corp-apps.com/display/BLD/How-To%3A+Working+with+Git#How-To:WorkingwithGit-To:WorkingwithGit-Stash">How-To: Working with Git Working with Git-Stash</a>.</p><p>So here's the scenario. I've been refactoring some of our aspects (the ... means looots more files changed) and this totally doesn't even compile right now and someone needs a bug fixed for LINT and it's Friday 2 o'clock.</p><div class="code panel pdl" style="border-width: 1px;"><div class="codeContent panelContent pdl">
+<div><div id="highlighter_208343" class="syntaxhighlighter nogutter  java"><div class="toolbar"><span><a href="https://wiki.corp-apps.com/pages/viewpage.action?pageId=78815562#" class="toolbar_item command_help help">?</a></span></div><table border="0" cellpadding="0" cellspacing="0"><tbody><tr><td class="code"><div class="container" title="Hint: double-click to select code"><div class="line number1 index0 alt2"><code class="java plain">ecomm$ git status</code></div><div class="line number2 index1 alt1"><code class="java plain">On branch master</code></div><div class="line number3 index2 alt2"><code class="java plain">Changes not staged </code><code class="java keyword">for</code> <code class="java plain">commit:</code></div><div class="line number4 index3 alt1"><code class="java spaces">&nbsp;&nbsp;</code><code class="java plain">(use </code><code class="java string">"git add &lt;file&gt;..."</code> <code class="java plain">to update what will be committed)</code></div><div class="line number5 index4 alt2"><code class="java spaces">&nbsp;&nbsp;</code><code class="java plain">(use </code><code class="java string">"git checkout -- &lt;file&gt;..."</code> <code class="java plain">to discard changes in working directory)</code></div><div class="line number6 index5 alt1"><code class="java spaces">&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="java plain">modified:&nbsp;&nbsp; ecomm-common/src/main/java/ecomm/common/logging/LoggingAspect.java</code></div><div class="line number7 index6 alt2"><code class="java plain">....</code></div><div class="line number8 index7 alt1"><code class="java plain">Untracked files:</code></div><div class="line number9 index8 alt2"><code class="java spaces">&nbsp;&nbsp;</code><code class="java plain">(use </code><code class="java string">"git add &lt;file&gt;..."</code> <code class="java plain">to include in what will be committed)</code></div><div class="line number10 index9 alt1"><code class="java spaces">&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="java plain">ecomm-common/src/main/java/ecomm/common/security/SecurityAspect.java</code></div><div class="line number11 index10 alt2"><code class="java plain">no changes added to commit (use </code><code class="java string">"git add"</code> <code class="java plain">and/or </code><code class="java string">"git commit -a"</code><code class="java plain">)</code></div></div></td></tr></tbody></table></div></div>
+</div></div><p>I can temporarily stash away my changes in a safe place, that git handles for me automatically and switch to the branch.</p><p><strong>Note</strong>: Stash only stashes away changes to files that git "knows about". Technically it doesn't "know" about files that are new. That meanas that "SecurityAspect.java" would not be stashed. That might be OK and exactly what I wanted in a different scenario, but here, I want it stashed away as well, because that file should definitely not go onto the LINT branch. You can also stash as many times as you want and in as many branches and places as you like.</p><div class="code panel pdl" style="border-width: 1px;"><div class="codeContent panelContent pdl">
+<div><div id="highlighter_234426" class="syntaxhighlighter nogutter  java"><div class="toolbar"><span><a href="https://wiki.corp-apps.com/pages/viewpage.action?pageId=78815562#" class="toolbar_item command_help help">?</a></span></div><table border="0" cellpadding="0" cellspacing="0"><tbody><tr><td class="code"><div class="container" title="Hint: double-click to select code"><div class="line number1 index0 alt2"><code class="java plain">ecomm$ git add ecomm-common/src/main/java/ecomm/common/security/SecurityAspect.java</code></div><div class="line number2 index1 alt1"><code class="java plain">ecomm$ git stash</code></div><div class="line number3 index2 alt2"><code class="java plain">Saved working directory and index state WIP on master: d51e1ff ECOMM-</code><code class="java value">6158</code> <code class="java plain">- Retrieve balance from intapi - Account info integration with intapi - Unified intapi integration services</code></div><div class="line number4 index3 alt1"><code class="java plain">HEAD is now at d51e1ff ECOMM-</code><code class="java value">6158</code> <code class="java plain">- Retrieve balance from intapi </code></div><div class="line number5 index4 alt2"><code class="java plain">ecomm$ git checkout ecomm-</code><code class="java value">3.56</code><code class="java plain">.x </code></div><div class="line number6 index5 alt1"><code class="java plain">Switched to branch </code><code class="java string">'ecomm-3.56.x'</code></div></div></td></tr></tbody></table></div></div>
+</div></div><p>Now I can do my fix, test it, commit it, push it etc. and once I'm done, I just go back to finishing up the work I did for regression week:</p><div class="code panel pdl" style="border-width: 1px;"><div class="codeContent panelContent pdl">
+<div><div id="highlighter_663921" class="syntaxhighlighter nogutter  java"><div class="toolbar"><span><a href="https://wiki.corp-apps.com/pages/viewpage.action?pageId=78815562#" class="toolbar_item command_help help">?</a></span></div><table border="0" cellpadding="0" cellspacing="0"><tbody><tr><td class="code"><div class="container" title="Hint: double-click to select code"><div class="line number1 index0 alt2"><code class="java plain">ecomm$ git stash pop</code></div><div class="line number2 index1 alt1"><code class="java plain">On branch ecomm-</code><code class="java value">3.56</code><code class="java plain">.xOn branch ecomm-</code><code class="java value">3.56</code><code class="java plain">.x</code></div><div class="line number3 index2 alt2"><code class="java plain">Changes to be committed:</code></div><div class="line number4 index3 alt1"><code class="java spaces">&nbsp;&nbsp;</code><code class="java plain">(use </code><code class="java string">"git reset HEAD &lt;file&gt;..."</code> <code class="java plain">to unstage)</code></div><div class="line number5 index4 alt2"><code class="java spaces">&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="java keyword">new</code> <code class="java plain">file:&nbsp;&nbsp; ecomm-common/src/main/java/ecomm/common/security/SecurityAspect.java</code></div><div class="line number6 index5 alt1"><code class="java plain">Changes not staged </code><code class="java keyword">for</code> <code class="java plain">commit:</code></div><div class="line number7 index6 alt2"><code class="java spaces">&nbsp;&nbsp;</code><code class="java plain">(use </code><code class="java string">"git add &lt;file&gt;..."</code> <code class="java plain">to update what will be committed)</code></div><div class="line number8 index7 alt1"><code class="java spaces">&nbsp;&nbsp;</code><code class="java plain">(use </code><code class="java string">"git checkout -- &lt;file&gt;..."</code> <code class="java plain">to discard changes in working directory)</code></div><div class="line number9 index8 alt2"><code class="java spaces">&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="java plain">modified:&nbsp;&nbsp; ecomm-common/src/main/java/ecomm/common/logging/LoggingAspect.java</code></div><div class="line number10 index9 alt1"><code class="java plain">no changes added to commit (use </code><code class="java string">"git add"</code> <code class="java plain">and/or </code><code class="java string">"git commit -a"</code><code class="java plain">)</code></div><div class="line number11 index10 alt2"><code class="java plain">Dropped refs/stash@{</code><code class="java value">0</code><code class="java plain">} (7ea6aa7ce33f10ce420a0d478045b7928ee856eb)</code></div></div></td></tr></tbody></table></div></div>
+</div></div><p>There we go, safely brought back all my changes. Note that because I already added the new file to stash it, git now "knows" about it and will commit it, once I am ready to commit.</p><p><strong>If you are still reading</strong>: What did I do wrong and will "break my neck" now?</p><h2 id="Onegitcloneisenough!-IaccidentallystartedmakingchangesformyregressiontaskontheLINTbranch!">I accidentally started making changes for my regression task on the LINT branch!</h2><p>Right, I forgot to switch back to master, before getting my changes back from the stash. This happens. It's not a big deal. It doesn't only happen if you had to stash, it also happens if you've made a change on a branch, then went home for the day and forget you didn't switch back to master before starting work in the morning and in a myriad of other situations.</p><p>The easy fix: Just switch to master!</p><div class="code panel pdl" style="border-width: 1px;"><div class="codeContent panelContent pdl">
+<div><div id="highlighter_360202" class="syntaxhighlighter nogutter  java"><div class="toolbar"><span><a href="https://wiki.corp-apps.com/pages/viewpage.action?pageId=78815562#" class="toolbar_item command_help help">?</a></span></div><table border="0" cellpadding="0" cellspacing="0"><tbody><tr><td class="code"><div class="container" title="Hint: double-click to select code"><div class="line number1 index0 alt2"><code class="java plain">ecomm$ git status</code></div><div class="line number2 index1 alt1"><code class="java plain">On branch ecomm-</code><code class="java value">3.56</code><code class="java plain">.x</code></div><div class="line number3 index2 alt2"><code class="java plain">Changes to be committed:</code></div><div class="line number4 index3 alt1"><code class="java spaces">&nbsp;&nbsp;</code><code class="java plain">(use </code><code class="java string">"git reset HEAD &lt;file&gt;..."</code> <code class="java plain">to unstage)</code></div><div class="line number5 index4 alt2"><code class="java spaces">&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="java keyword">new</code> <code class="java plain">file:&nbsp;&nbsp; ecomm-common/src/main/java/ecomm/common/security/SecurityAspect.java</code></div><div class="line number6 index5 alt1"><code class="java plain">Changes not staged </code><code class="java keyword">for</code> <code class="java plain">commit:</code></div><div class="line number7 index6 alt2"><code class="java spaces">&nbsp;&nbsp;</code><code class="java plain">(use </code><code class="java string">"git add &lt;file&gt;..."</code> <code class="java plain">to update what will be committed)</code></div><div class="line number8 index7 alt1"><code class="java spaces">&nbsp;&nbsp;</code><code class="java plain">(use </code><code class="java string">"git checkout -- &lt;file&gt;..."</code> <code class="java plain">to discard changes in working directory)</code></div><div class="line number9 index8 alt2"><code class="java spaces">&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="java plain">modified:&nbsp;&nbsp; ecomm-common/src/main/java/ecomm/common/logging/LoggingAspect.java</code></div><div class="line number10 index9 alt1"><code class="java plain">ecomm$ git checkout master </code></div><div class="line number11 index10 alt2"><code class="java plain">M&nbsp;&nbsp;&nbsp; ecomm-common/src/main/java/ecomm/common/logging/LoggingAspect.java</code></div><div class="line number12 index11 alt1"><code class="java plain">A&nbsp;&nbsp;&nbsp; ecomm-common/src/main/java/ecomm/common/security/SecurityAspect.java</code></div><div class="line number13 index12 alt2"><code class="java plain">Switched to branch </code><code class="java string">'master'</code></div><div class="line number14 index13 alt1"><code class="java plain">ecomm$ git status</code></div><div class="line number15 index14 alt2"><code class="java plain">On branch master</code></div><div class="line number16 index15 alt1"><code class="java plain">Changes to be committed:</code></div><div class="line number17 index16 alt2"><code class="java spaces">&nbsp;&nbsp;</code><code class="java plain">(use </code><code class="java string">"git reset HEAD &lt;file&gt;..."</code> <code class="java plain">to unstage)</code></div><div class="line number18 index17 alt1"><code class="java spaces">&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="java keyword">new</code> <code class="java plain">file:&nbsp;&nbsp; ecomm-common/src/main/java/ecomm/common/security/SecurityAspect.java</code></div><div class="line number19 index18 alt2"><code class="java plain">Changes not staged </code><code class="java keyword">for</code> <code class="java plain">commit:</code></div><div class="line number20 index19 alt1"><code class="java spaces">&nbsp;&nbsp;</code><code class="java plain">(use </code><code class="java string">"git add &lt;file&gt;..."</code> <code class="java plain">to update what will be committed)</code></div><div class="line number21 index20 alt2"><code class="java spaces">&nbsp;&nbsp;</code><code class="java plain">(use </code><code class="java string">"git checkout -- &lt;file&gt;..."</code> <code class="java plain">to discard changes in working directory)</code></div><div class="line number22 index21 alt1"><code class="java spaces">&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="java plain">modified:&nbsp;&nbsp; ecomm-common/src/main/java/ecomm/common/logging/LoggingAspect.java</code></div></div></td></tr></tbody></table></div></div>
+</div></div><p>Here we are, git switched the branch back to master and kept all the modifications that weren't committed yet. That also works if there's a file that git doesn't "know about" yet.</p><h2 id="Onegitcloneisenough!-ButIcommittedtotheLINTbranchbeforeInoticed!">But I committed to the LINT branch before I noticed!</h2><div class="code panel pdl" style="border-width: 1px;"><div class="codeContent panelContent pdl">
+<div><div id="highlighter_570165" class="syntaxhighlighter nogutter  java"><div class="toolbar"><span><a href="https://wiki.corp-apps.com/pages/viewpage.action?pageId=78815562#" class="toolbar_item command_help help">?</a></span></div><table border="0" cellpadding="0" cellspacing="0"><tbody><tr><td class="code"><div class="container" title="Hint: double-click to select code"><div class="line number1 index0 alt2"><code class="java plain">ecomm$ git commit -a -m </code><code class="java string">'blah'</code></div><div class="line number2 index1 alt1"><code class="java plain">[ecomm-</code><code class="java value">3.56</code><code class="java plain">.x 16731c1] blah</code></div><div class="line number3 index2 alt2"><code class="java spaces">&nbsp;</code><code class="java value">2</code> <code class="java plain">files changed, </code><code class="java value">68</code> <code class="java plain">insertions(+), </code><code class="java value">1</code> <code class="java plain">deletion(-)</code></div><div class="line number4 index3 alt1"><code class="java spaces">&nbsp;</code><code class="java plain">create mode </code><code class="java value">100644</code> <code class="java plain">ecomm-common/src/main/java/ecomm/common/security/SecurityAspect.java</code></div></div></td></tr></tbody></table></div></div>
+</div></div><p>No problem (unless you also pushed). Since commits are made locally in git, you can fix ANY situation you get yourself into, unless you have already pushed to the repository. Even then you can "fix" things, but it might look weird in the history.</p><p>A possibility here would be to just cherry-pick the commit over to the master branch. All we need is the commit hash of the "wrong commit" from the LINT branch, which it conveniently lists right after committing: 16731c1</p><div class="code panel pdl" style="border-width: 1px;"><div class="codeContent panelContent pdl">
+<div><div id="highlighter_82316" class="syntaxhighlighter nogutter  java"><div class="toolbar"><span><a href="https://wiki.corp-apps.com/pages/viewpage.action?pageId=78815562#" class="toolbar_item command_help help">?</a></span></div><table border="0" cellpadding="0" cellspacing="0"><tbody><tr><td class="code"><div class="container" title="Hint: double-click to select code"><div class="line number1 index0 alt2"><code class="java plain">ecomm$ git checkout master </code></div><div class="line number2 index1 alt1"><code class="java plain">Switched to branch </code><code class="java string">'master'</code></div><div class="line number3 index2 alt2"><code class="java plain">KOLM10-AGRETENC:ecomm agretencord$ git cherry-pick 16731c1</code></div><div class="line number4 index3 alt1"><code class="java plain">[master a230386] blah</code></div><div class="line number5 index4 alt2"><code class="java spaces">&nbsp;</code><code class="java value">2</code> <code class="java plain">files changed, </code><code class="java value">68</code> <code class="java plain">insertions(+), </code><code class="java value">1</code> <code class="java plain">deletion(-)</code></div><div class="line number6 index5 alt1"><code class="java spaces">&nbsp;</code><code class="java plain">create mode </code><code class="java value">100644</code> <code class="java plain">ecomm-common/src/main/java/ecomm/common/logging/LoggingAspect2.java</code></div></div></td></tr></tbody></table></div></div>
+</div></div><p>Now you need to "clean up" the LINT branch, as it still has the commit that you don't want to have there. There's a neat little syntax in git, that lets you "navigate" in commit without knowing the actual commit hashes. We already know the commit hash of the "wrong commit", it's 16731c1. Using the caret character "^", we can tell git that we want "the commit before that": "16731c1^".</p><div class="code panel pdl" style="border-width: 1px;"><div class="codeContent panelContent pdl">
+<div><div id="highlighter_132391" class="syntaxhighlighter nogutter  java"><div class="toolbar"><span><a href="https://wiki.corp-apps.com/pages/viewpage.action?pageId=78815562#" class="toolbar_item command_help help">?</a></span></div><table border="0" cellpadding="0" cellspacing="0"><tbody><tr><td class="code"><div class="container" title="Hint: double-click to select code"><div class="line number1 index0 alt2"><code class="java plain">ecomm$ git checkout 16731c1^</code></div><div class="line number2 index1 alt1"><code class="java plain">Note: checking out </code><code class="java string">'16731c1^'</code><code class="java plain">.</code></div><div class="line number3 index2 alt2"><code class="java plain">You are in </code><code class="java string">'detached HEAD'</code> <code class="java plain">state. You can look around, make experimental</code></div><div class="line number4 index3 alt1"><code class="java plain">changes and commit them, and you can discard any commits you make in </code><code class="java keyword">this</code></div><div class="line number5 index4 alt2"><code class="java plain">state without impacting any branches by performing another checkout.</code></div><div class="line number6 index5 alt1"><code class="java plain">If you want to create a </code><code class="java keyword">new</code> <code class="java plain">branch to retain commits you create, you may</code></div><div class="line number7 index6 alt2"><code class="java keyword">do</code> <code class="java plain">so (now or later) by using -b with the checkout command again. Example:</code></div><div class="line number8 index7 alt1"><code class="java spaces">&nbsp;&nbsp;</code><code class="java plain">git checkout -b new_branch_name</code></div><div class="line number9 index8 alt2"><code class="java plain">HEAD is now at 02f4d74... ECOMM-</code><code class="java value">6486</code><code class="java plain">: Rename BO configuration item to </code><code class="java string">"One-click deposit channels"</code></div></div></td></tr></tbody></table></div></div>
+</div></div><p>Note the fat message that we're in "detached HEAD" state. This is nothing to worry about, as we're going to get ourselves out of that situation real soon. It basically means that if you start making changes to the code in this situation, you may loose those changes if you aren't careful. But even if you do start making changes, that's nothing to worry about, as long as you know how to get out of that situation. But that's another story. So back to fixing up the LINT branch. All we need to do is to actually delete <img class="emoticon emoticon-warning" src="./One git clone is enough! - Delta Ecomm - Confluence (Wiki)_files/warning.png" data-emoticon-name="warning" alt="(warning)"> the branch. That's fine, because you really only delete the local branch on your computer, which has "nothing" to do with the branch on the repository. After that, you really don't have to do anything, if you don't want to keep making changes to the LINT branch. If you do, you need to synchronize your local branch label with the branch label on the repository:</p><div class="code panel pdl" style="border-width: 1px;"><div class="codeContent panelContent pdl">
+<div><div id="highlighter_928780" class="syntaxhighlighter nogutter  java"><div class="toolbar"><span><a href="https://wiki.corp-apps.com/pages/viewpage.action?pageId=78815562#" class="toolbar_item command_help help">?</a></span></div><table border="0" cellpadding="0" cellspacing="0"><tbody><tr><td class="code"><div class="container" title="Hint: double-click to select code"><div class="line number1 index0 alt2"><code class="java plain">ecomm$ git branch -D ecomm-</code><code class="java value">3.56</code><code class="java plain">.x</code></div><div class="line number2 index1 alt1"><code class="java plain">Deleted branch ecomm-</code><code class="java value">3.56</code><code class="java plain">.x (was 16731c1).</code></div><div class="line number3 index2 alt2"><code class="java plain">ecomm$ git checkout ecomm-</code><code class="java value">3.56</code><code class="java plain">.x</code></div><div class="line number4 index3 alt1"><code class="java plain">Previous HEAD position was 02f4d74... ECOMM-</code><code class="java value">6486</code><code class="java plain">: Rename BO configuration item to </code><code class="java string">"One-click deposit channels"</code></div><div class="line number5 index4 alt2"><code class="java plain">HEAD is now at 9bbeb42... BLD-</code><code class="java value">63686</code><code class="java plain">:prepare </code><code class="java keyword">for</code> <code class="java plain">next development iteration</code></div></div></td></tr></tbody></table></div></div>
+</div></div><p>Your graphical tool of choice may even offer the above as a much simpler feature, something like "move branch label" or something like that.</p><p><strong>Remember:</strong> "Everything" in git is just labels for commits. You can relabel stuff all you like and play around locally. Actually, to be able to paste all these code blocks, I actually DID the stuff I'm showing on my real ecomm library project. Now that I'm done, I'm just gonna get rid of the commits I made, switch to master and reset any changes that may be there.</p><p>&nbsp;</p>
+        </div>
+
+                
+    
+    
+    
+            </div>
+                            
+    
+
+
+
+<div id="likes-and-labels-container"><div id="likes-section"><a href="" class="like-button"><span class="aui-icon aui-icon-small aui-iconfont-like"></span><span class="like-button-text">Like</span></a><span class="like-summary"><a href="" class="likes" data-content-id="78815562">4 people</a> like this</span></div><div id="labels-section" class="pageSection group">
+    <div class="labels-section-content content-column" entityid="78815562" entitytype="blogpost">
+	<div class="labels-content">
+		
+    <ul class="label-list label-list-right  has-pen">
+                    
+        <li class="aui-label " data-label-id="58228964"><a class="aui-label-split-main" href="https://wiki.corp-apps.com/label/ECOMMDEV/git" rel="tag">git</a></li><li class="aui-label " data-label-id="79331411"><a class="aui-label-split-main" href="https://wiki.corp-apps.com/label/ECOMMDEV/knowyourtools" rel="tag">knowyourtools</a></li>
+                <li class="labels-edit-container">
+            <a href="https://wiki.corp-apps.com/pages/viewpage.action?pageId=78815562#" class="show-labels-editor" title="Edit Labels (l)">
+                <span class="aui-icon aui-icon-small aui-iconfont-edit-small">Edit Labels</span>
+            </a>
+        </li>
+        </ul>
+
+    </div>
+</div>
+</div></div>
+
+                
+
+
+
+
+            
+    
+
+<div class="hidden parameters">
+    <input type="hidden" id="pageTitle" value="/2015/05/19/One git clone is enough!">
+</div>
+
+
+
+
+
+
+
+                        
+    
+<div id="comments-section" class="pageSection group">
+                <div class="section-header">
+            <h2 id="comments-section-title" class="section-title">
+                                    3 Comments
+                            </h2>
+        </div>
+    
+    
+
+            <ol class="comment-threads top-level" id="page-comments">
+                    <li id="comment-thread-78816298" class="comment-thread">
+        <div class="comment  " id="comment-78816298">
+        <p class="comment-user-logo">
+            <a class="userLogoLink userlink-2" data-username="lruiz" href="https://wiki.corp-apps.com/display/~lruiz" title="" data-user-hover-bound="true">
+               <img class="userLogo logo" src="./One git clone is enough! - Delta Ecomm - Confluence (Wiki)_files/thumb_lruiz.jpg" alt="User icon: lruiz" title="">
+           </a>        </p>
+        <div class="comment-header">
+            <h4 class="author">    <a href="https://wiki.corp-apps.com/display/~lruiz" class="url fn confluence-userlink userlink-2" data-username="lruiz" title="" data-user-hover-bound="true">Laura Ruiz</a></h4>
+        </div>
+        <div class="comment-body">
+            <div class="comment-content wiki-content">
+                <p>So useful!</p>
+            </div>
+            <div class="comment-actions">
+                                                <ul class="comment-actions-secondary">
+                                                              <li class="first comment-permalink"><a title="Permanent link to this comment" href="https://wiki.corp-apps.com/pages/viewpage.action?pageId=78815562&focusedCommentId=78816298#comment-78816298" id="comment-permalink-78816298"><span>Permalink</span></a></li>
+            </ul>
+                                    <ul class="comment-actions-primary">
+                                                              <li class="first action-reply-comment"><a href="https://wiki.corp-apps.com/pages/replycomment.action?commentId=78816298&pageId=78815562" id="reply-comment-78816298"><span>Reply</span></a></li>
+                                                              <li class="comment-action-like"><a href="" class="like-button"><span class="like-button-text">Like</span></a><span class="like-summary"></span></li><li class=" comment-date"><a title="20-May-2015 11:23" href="https://wiki.corp-apps.com/pages/viewpage.action?pageId=78815562&focusedCommentId=78816298#comment-78816298"><span>20-May-2015</span></a></li>
+            </ul>
+                </div>
+        </div>
+    </div>
+
+    <!--
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:dc="http://purl.org/dc/elements/1.1/"
+         xmlns:trackback="http://madskills.com/public/xml/rss/module/trackback/">
+         <rdf:Description
+    rdf:about="https://wiki.corp-apps.com/pages/viewpage.action?pageId=78815562&amp;focusedCommentId=78816298#comment-78816298"
+    dc:identifier="https://wiki.corp-apps.com/pages/viewpage.action?pageId=78815562&amp;focusedCommentId=78816298#comment-78816298"
+    dc:title="One git clone is enough!"
+    trackback:ping="https://wiki.corp-apps.com/rpc/trackback/78816298"/>
+</rdf:RDF>
+-->
+
+    
+    </li>
+                    <li id="comment-thread-78817032" class="comment-thread">
+        <div class="comment   odd" id="comment-78817032">
+        <p class="comment-user-logo">
+            <a class="userLogoLink userlink-3" data-username="lpaneque" href="https://wiki.corp-apps.com/display/~lpaneque" title="" data-user-hover-bound="true">
+               <img class="userLogo logo" src="./One git clone is enough! - Delta Ecomm - Confluence (Wiki)_files/thumb_lpaneque.jpg" alt="User icon: lpaneque" title="">
+           </a>        </p>
+        <div class="comment-header">
+            <h4 class="author">    <span class="unknown-user">Unknown User (lpaneque)</span></h4>
+        </div>
+        <div class="comment-body">
+            <div class="comment-content wiki-content">
+                <p>I was using stash apply to apply the stashed changes, but know that you've mentioned the stash pop, I've realised that the state is not removed from the stash list.</p><p>About the last part you explained, deleting the wrong commit, is it the same that doing this "git reset HEAD^&nbsp;"?</p>
+            </div>
+            <div class="comment-actions">
+                                                <ul class="comment-actions-secondary">
+                                                              <li class="first comment-permalink"><a title="Permanent link to this comment" href="https://wiki.corp-apps.com/pages/viewpage.action?pageId=78815562&focusedCommentId=78817032#comment-78817032" id="comment-permalink-78817032"><span>Permalink</span></a></li>
+            </ul>
+                                    <ul class="comment-actions-primary">
+                                                              <li class="first action-reply-comment"><a href="https://wiki.corp-apps.com/pages/replycomment.action?commentId=78817032&pageId=78815562" id="reply-comment-78817032"><span>Reply</span></a></li>
+                                                              <li class="comment-action-like"><a href="" class="like-button"><span class="like-button-text">Like</span></a><span class="like-summary"></span></li><li class=" comment-date"><a title="21-May-2015 08:15" href="https://wiki.corp-apps.com/pages/viewpage.action?pageId=78815562&focusedCommentId=78817032#comment-78817032"><span>21-May-2015</span></a></li>
+            </ul>
+                </div>
+        </div>
+    </div>
+
+    <!--
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:dc="http://purl.org/dc/elements/1.1/"
+         xmlns:trackback="http://madskills.com/public/xml/rss/module/trackback/">
+         <rdf:Description
+    rdf:about="https://wiki.corp-apps.com/pages/viewpage.action?pageId=78815562&amp;focusedCommentId=78817032#comment-78817032"
+    dc:identifier="https://wiki.corp-apps.com/pages/viewpage.action?pageId=78815562&amp;focusedCommentId=78817032#comment-78817032"
+    dc:title="One git clone is enough!"
+    trackback:ping="https://wiki.corp-apps.com/rpc/trackback/78817032"/>
+</rdf:RDF>
+-->
+
+    
+            <ol class="comment-threads">
+                                <li id="comment-thread-78817075" class="comment-thread">
+        <div class="comment  " id="comment-78817075">
+        <p class="comment-user-logo">
+            <a class="userLogoLink userlink-0" data-username="agretencord" href="https://wiki.corp-apps.com/display/~agretencord" title="" data-user-hover-bound="true">
+               <img class="userLogo logo" src="./One git clone is enough! - Delta Ecomm - Confluence (Wiki)_files/thumb_agretencord.jpg" alt="User icon: agretencord" title="">
+           </a>        </p>
+        <div class="comment-header">
+            <h4 class="author">    <a href="https://wiki.corp-apps.com/display/~agretencord" class="url fn confluence-userlink userlink-0" data-username="agretencord" title="" data-user-hover-bound="true">Alex G - Apical Services</a> <span class="author-lozenge">AUTHOR</span></h4>
+        </div>
+        <div class="comment-body">
+            <div class="comment-content wiki-content">
+                <p>Yes. That resets the branch pointer back as well, but will leave any new files you had added in your commit in your working tree for you to delete and any modifications that you made will still be present. Doing a "git reset --hard HEAD^" would fix that though (i.e. get rid of those changes as well). Basically it's a faster way to do it, if you also need to have the pointer re-attached (which you probably want on master, but probably don't need to on a branch like in the example, where you'd leave out the last checkout step anyway).</p>
+            </div>
+            <div class="comment-actions">
+                                                <ul class="comment-actions-secondary">
+                                                              <li class="first comment-permalink"><a title="Permanent link to this comment" href="https://wiki.corp-apps.com/pages/viewpage.action?pageId=78815562&focusedCommentId=78817075#comment-78817075" id="comment-permalink-78817075"><span>Permalink</span></a></li>
+            </ul>
+                                    <ul class="comment-actions-primary">
+                                                              <li class="first action-reply-comment"><a href="https://wiki.corp-apps.com/pages/replycomment.action?commentId=78817075&pageId=78815562" id="reply-comment-78817075"><span>Reply</span></a></li>
+                                                              <li class="comment-action-like"><a href="" class="like-button"><span class="like-button-text">Like</span></a><span class="like-summary"></span></li><li class=" comment-date"><a title="21-May-2015 08:51" href="https://wiki.corp-apps.com/pages/viewpage.action?pageId=78815562&focusedCommentId=78817075#comment-78817075"><span>21-May-2015</span></a></li>
+            </ul>
+                </div>
+        </div>
+    </div>
+
+    <!--
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:dc="http://purl.org/dc/elements/1.1/"
+         xmlns:trackback="http://madskills.com/public/xml/rss/module/trackback/">
+         <rdf:Description
+    rdf:about="https://wiki.corp-apps.com/pages/viewpage.action?pageId=78815562&amp;focusedCommentId=78817075#comment-78817075"
+    dc:identifier="https://wiki.corp-apps.com/pages/viewpage.action?pageId=78815562&amp;focusedCommentId=78817075#comment-78817075"
+    dc:title="One git clone is enough!"
+    trackback:ping="https://wiki.corp-apps.com/rpc/trackback/78817075"/>
+</rdf:RDF>
+-->
+
+    
+    </li>
+                        </ol>
+    </li>
+            </ol>
+
+    <div class="bottom-comment-panels comment-panels">
+                
+                    
+    
+
+
+                        
+    
+
+        
+        
+    
+    <div class="quick-comment-container comment add odd"><p class="comment-user-logo"><a class="userLogoLink userlink-4" data-username="oojewale" href="https://wiki.corp-apps.com/users/profile/editmyprofilepicture.action" title="" data-user-hover-bound="true"><img class="userLogo logo defaultLogo" src="./One git clone is enough! - Delta Ecomm - Confluence (Wiki)_files/add_profile_pic.png" alt="User icon: Add a picture of yourself" title=""></a></p><div class="quick-comment-body"><div class="quick-comment-loading-container" style="display:none;"></div><div id="editor-messages"></div><div id="all-messages"></div><form style="display:block;" class="quick-comment-form aui" method="post" name="inlinecommentform" action="https://wiki.corp-apps.com/pages/doaddcomment.action?pageId=78815562"><div title="Add a Comment (m)" class="quick-comment-prompt"><span>Write a comment…</span></div></form></div></div>
+
+            </div>
+
+            <div id="comments-actions" class="aui-toolbar noprint" style="display: none;">
+            <p class="toolbar-group">
+                <span class="toolbar-item"><a href="https://wiki.corp-apps.com/pages/viewpage.action?pageId=78815562&showComments=true&showCommentArea=true#addcomment" id="add-comment-rte" accesskey="m" class="toolbar-trigger">Add Comment</a></span>
+            </p>
+        </div>
+    </div>
+
+
+                    
+    
+            <!--
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:dc="http://purl.org/dc/elements/1.1/"
+         xmlns:trackback="http://madskills.com/public/xml/rss/module/trackback/">
+         <rdf:Description
+    rdf:about="https://wiki.corp-apps.com/pages/viewpage.action?pageId=78815562"
+    dc:identifier="https://wiki.corp-apps.com/pages/viewpage.action?pageId=78815562"
+    dc:title="One git clone is enough!"
+    trackback:ping="https://wiki.corp-apps.com/rpc/trackback/78815562"/>
+</rdf:RDF>
+-->
+            
+
+                
+<div class="ic-sidebar"></div></div>
+
+
+
+    
+
+
+
+
+    
+    
+
+    
+    
+    
+
+    
+
+    
+<div id="space-tools-web-items" class="hidden">
+                <div data-label="Overview" data-href="/spaces/viewspacesummary.action?key=ECOMMDEV">Overview</div>
+            <div data-label="Community Forums" data-href="/plugins/forums/config/space/spaceForumList.action?key=ECOMMDEV">Community Forums</div>
+            <div data-label="Content Tools" data-href="/pages/reorderpages.action?key=ECOMMDEV">Content Tools</div>
+            <div data-label="Activity" data-href="/spaces/usage/report.action?key=ECOMMDEV">Activity</div>
+    </div>
+
+
+
+    </div><!-- \#main -->
+        
+    
+        
+            
+            
+
+<div id="footer" role="contentinfo" style="margin-left: 285px;">
+    <section class="footer-body">
+
+                                                    
+        
+
+        <ul id="poweredby">
+            <li class="noprint">Powered by <a href="http://www.atlassian.com/software/confluence" class="hover-footer-link">Atlassian Confluence</a> <span id="footer-build-information">5.8.10</span>, <a href="http://www.atlassian.com/software/confluence/overview/team-collaboration-software?utm_source=confluence-footer" class="hover-footer-link">Team Collaboration Software</a></li>
+            <li class="print-only">Printed by Atlassian Confluence 5.8.10, Team Collaboration Software.</li>
+            <li class="noprint"><a href="https://jira.atlassian.com/browse/CONF" class="hover-footer-link">Report a bug</a></li>
+            <li class="noprint"><a href="http://www.atlassian.com/about/connected.jsp?s_kwcid=Confluence-stayintouch" class="hover-footer-link">Atlassian News</a></li>
+        </ul>
+
+        
+
+        <div id="footer-logo"><a href="http://www.atlassian.com/">Atlassian</a></div>
+
+                    
+        
+    </section>
+</div>
+
+    
+</div>
+
+</div><!-- \#full-height-container -->
+</div><!-- \#page -->
+
+
+<div id="content-hover-0" class="ajs-content-hover"><div class="contents" style="width: 300px;"></div></div><div id="content-hover-1" class="ajs-content-hover"><div class="contents" style="width: 300px;"></div></div><div id="content-hover-2" class="ajs-content-hover"><div class="contents" style="width: 300px;"></div></div><div id="content-hover-3" class="ajs-content-hover"><div class="contents" style="width: 300px;"></div></div><div id="content-hover-4" class="ajs-content-hover"><div class="contents" style="width: 300px;"></div></div><div id="fancybox-tmp"></div><div id="fancybox-loading"><div></div></div><div id="fancybox-overlay"></div><div id="fancybox-wrap"><div id="fancybox-outer"><div class="fancybox-bg" id="fancybox-bg-n"></div><div class="fancybox-bg" id="fancybox-bg-ne"></div><div class="fancybox-bg" id="fancybox-bg-e"></div><div class="fancybox-bg" id="fancybox-bg-se"></div><div class="fancybox-bg" id="fancybox-bg-s"></div><div class="fancybox-bg" id="fancybox-bg-sw"></div><div class="fancybox-bg" id="fancybox-bg-w"></div><div class="fancybox-bg" id="fancybox-bg-nw"></div><div id="fancybox-content"></div><a id="fancybox-close"></a><div id="fancybox-title"></div><a href="javascript:;" id="fancybox-left"><span class="fancy-ico" id="fancybox-left-ico"></span></a><a href="javascript:;" id="fancybox-right"><span class="fancy-ico" id="fancybox-right-ico"></span></a></div></div><div id="content-hover-shadow" style="display: none;"><div class="tl"></div><div class="tr"></div><div class="l"></div><div class="r"></div><div class="bl"></div><div class="br"></div><div class="b"></div></div><div class="qr-notice-container"></div><div id="fileuploadShim" style="position: relative; z-index: 0;"></div><div id="p1a408tsoreolc3219is1tq4ira0_html5_container" class="plupload html5" style="position: absolute; width: 1905px; height: 0px; overflow: hidden; z-index: -1; opacity: 0; top: 3044px; left: 0px; background: transparent;"><input id="p1a408tsoreolc3219is1tq4ira0_html5" style="font-size: 999px; position: absolute; width: 100%; height: 100%;" type="file" accept="" multiple="multiple"></div><div id="inline-dialog-notifications-miniview" class="aui-inline-dialog"><div class="aui-inline-dialog-contents contents" style="width: 500px;"><iframe id="notifications-miniview-iframe" src="./One git clone is enough! - Delta Ecomm - Confluence (Wiki)_files/notifications-miniview.html" frameborder="0"></iframe></div><div id="arrow-notifications-miniview" class="aui-inline-dialog-arrow arrow aui-css-arrow"></div></div><div id="editor-preload-container" style="display: none;">
+ 
+
+<div class="hidden">
+        
+
+
+<content tag="breadcrumbs">
+    
+    
+    <ol id="quickedit-breadcrumbs">
+                                        
+                        
+        <li class="first">
+                        
+                            <span class=""><a href="https://wiki.corp-apps.com/display/ECOMMDEV">Delta Ecomm</a></span>
+                                                                    
+                        
+        </li><li>
+                        
+                            <span class=""><a href="https://wiki.corp-apps.com/pages/viewrecentblogposts.action?key=ECOMMDEV">Blog</a></span>
+                                                                    
+                        
+        </li><li>
+                        
+                            <span class="">2015</span>
+                                                                    
+                        
+        </li><li>
+                        
+                            <span class=""><a href="https://wiki.corp-apps.com/display/ECOMMDEV/2015/05">May</a></span>
+                                                                    
+                        
+        </li><li>
+                        
+                            <span class="">19</span>
+                                                                    
+                        
+        </li><li>
+                        
+                            <span class="edited-page-title"><a href="./One git clone is enough! - Delta Ecomm - Confluence (Wiki)_files/One git clone is enough! - Delta Ecomm - Confluence (Wiki).html">One git clone is enough!</a></span>
+                                                    </li></ol>
+
+</content>
+</div>
+
+
+        
+    
+
+                                                                                        
+
+<script type="text/x-template" title="editor-css" id="editor-css-resources">
+    <link type="text/css" rel="stylesheet" href="/s/aa5f2b854ad0c77a92c26eba2c1658eb-CDN/en_GB/5989/aaad9997c145089d7f38b9dea0ac5b91728ef55a.54/5.7.26/_/download/batch/com.atlassian.auiplugin:aui-page-typography/com.atlassian.auiplugin:aui-page-typography.css" media="all">
+<link type="text/css" rel="stylesheet" href="/s/aa5f2b854ad0c77a92c26eba2c1658eb-CDN/en_GB/5989/aaad9997c145089d7f38b9dea0ac5b91728ef55a.54/5.7.26/_/download/batch/com.atlassian.auiplugin:aui-avatars/com.atlassian.auiplugin:aui-avatars.css" media="all">
+<link type="text/css" rel="stylesheet" href="/s/e383b3e996332ad8251dab1db600f930-CDN/en_GB/5989/aaad9997c145089d7f38b9dea0ac5b91728ef55a.54/5.7.26/_/download/batch/com.atlassian.auiplugin:aui-page-layout/com.atlassian.auiplugin:aui-page-layout.css" media="all">
+<link type="text/css" rel="stylesheet" href="/s/a172319397deb54e4ed036763fe77ee3-CDN/en_GB/5989/aaad9997c145089d7f38b9dea0ac5b91728ef55a.54/5.8.10/_/download/batch/com.atlassian.confluence.editor:editor-content-styles/com.atlassian.confluence.editor:editor-content-styles.css" media="all">
+<link type="text/css" rel="stylesheet" href="/s/d41d8cd98f00b204e9800998ecf8427e-CDN/en_GB/5989/aaad9997c145089d7f38b9dea0ac5b91728ef55a.54/5.8.10/_/download/batch/com.atlassian.confluence.plugins.confluence-templates:variable-editor-content-styles/com.atlassian.confluence.plugins.confluence-templates:variable-editor-content-styles.css" media="all">
+<link type="text/css" rel="stylesheet" href="/s/aa5f2b854ad0c77a92c26eba2c1658eb-CDN/en_GB/5989/aaad9997c145089d7f38b9dea0ac5b91728ef55a.54/5.7.26/_/download/batch/com.atlassian.auiplugin:aui-lozenge/com.atlassian.auiplugin:aui-lozenge.css" media="all">
+<link type="text/css" rel="stylesheet" href="/s/d41d8cd98f00b204e9800998ecf8427e-CDN/en_GB/5989/aaad9997c145089d7f38b9dea0ac5b91728ef55a.54/2.17/_/download/batch/com.atlassian.confluence.plugins.status-macro:view_content_status/com.atlassian.confluence.plugins.status-macro:view_content_status.css" media="all">
+<link type="text/css" rel="stylesheet" href="/s/55f3bb65bf2b8c1c964aab6ca503de9f-CDN/en_GB/5989/aaad9997c145089d7f38b9dea0ac5b91728ef55a.54/2.17/_/download/batch/com.atlassian.confluence.plugins.status-macro:editor_content_status/com.atlassian.confluence.plugins.status-macro:editor_content_status.css" media="all">
+<link type="text/css" rel="stylesheet" href="/s/0e1f8f9f28ed0d0224dd6d3240b47bc5-CDN/en_GB/5989/aaad9997c145089d7f38b9dea0ac5b91728ef55a.54/3.6.16/_/download/batch/confluence.extra.attachments:attachments-css/confluence.extra.attachments:attachments-css.css" media="all">
+<link type="text/css" rel="stylesheet" href="/s/d41d8cd98f00b204e9800998ecf8427e-CDN/en_GB/5989/aaad9997c145089d7f38b9dea0ac5b91728ef55a.54/2.6.1/_/download/batch/nl.avisi.confluence.plugins.numberedheadings:nh-tinymce-css-resources/nl.avisi.confluence.plugins.numberedheadings:nh-tinymce-css-resources.css" media="all">
+<link type="text/css" rel="stylesheet" href="/s/d41d8cd98f00b204e9800998ecf8427e-CDN/en_GB/5989/aaad9997c145089d7f38b9dea0ac5b91728ef55a.54/12.4.05/_/download/batch/com.atlassian.confluence.plugins.confluence-roadmap-plugin:roadmap-placeholder-css/com.atlassian.confluence.plugins.confluence-roadmap-plugin:roadmap-placeholder-css.css" media="all">
+<link type="text/css" rel="stylesheet" href="/s/d41d8cd98f00b204e9800998ecf8427e-CDN/en_GB/5989/aaad9997c145089d7f38b9dea0ac5b91728ef55a.54/1.0/_/download/batch/confluence.web.resources:panel-styles/confluence.web.resources:panel-styles.css" media="all">
+<link type="text/css" rel="stylesheet" href="/s/d41d8cd98f00b204e9800998ecf8427e-CDN/en_GB/5989/aaad9997c145089d7f38b9dea0ac5b91728ef55a.54/1.0/_/download/batch/confluence.web.resources:content-styles/confluence.web.resources:content-styles.css" media="all">
+<link type="text/css" rel="stylesheet" href="/s/d41d8cd98f00b204e9800998ecf8427e-CDN/en_GB/5989/aaad9997c145089d7f38b9dea0ac5b91728ef55a.54/5.8.10/_/download/batch/com.atlassian.confluence.plugins.confluence-page-layout:editor-pagelayout-content-styles/com.atlassian.confluence.plugins.confluence-page-layout:editor-pagelayout-content-styles.css" media="all">
+<link type="text/css" rel="stylesheet" href="/s/d41d8cd98f00b204e9800998ecf8427e-CDN/en_GB/5989/aaad9997c145089d7f38b9dea0ac5b91728ef55a.54/4.0.3/_/download/batch/com.atlassian.confluence.plugins.confluence-business-blueprints:sharelinks-urlmacro-editor-resources/com.atlassian.confluence.plugins.confluence-business-blueprints:sharelinks-urlmacro-editor-resources.css" media="all">
+<link type="text/css" rel="stylesheet" href="/s/d41d8cd98f00b204e9800998ecf8427e-CDN/en_GB/5989/aaad9997c145089d7f38b9dea0ac5b91728ef55a.54/5.7.0/_/download/batch/com.atlassian.confluence.plugins.confluence-inline-tasks:inline-tasks-styles/com.atlassian.confluence.plugins.confluence-inline-tasks:inline-tasks-styles.css" media="all">
+<link type="text/css" rel="stylesheet" href="/s/d41d8cd98f00b204e9800998ecf8427e-CDN/en_GB/5989/aaad9997c145089d7f38b9dea0ac5b91728ef55a.54/5.7.0/_/download/batch/com.atlassian.confluence.plugins.confluence-inline-tasks:editor-autocomplete-date-css/com.atlassian.confluence.plugins.confluence-inline-tasks:editor-autocomplete-date-css.css" media="all">
+<!--[if lte IE 9]>
+<link type="text/css" rel="stylesheet" href="/s/d41d8cd98f00b204e9800998ecf8427e-CDN/en_GB/5989/aaad9997c145089d7f38b9dea0ac5b91728ef55a.54/5.7.0/_/download/batch/com.atlassian.confluence.plugins.confluence-inline-tasks:editor-autocomplete-date-css/com.atlassian.confluence.plugins.confluence-inline-tasks:editor-autocomplete-date-css.css?conditionalComment=lte+IE+9" media="all">
+<![endif]-->
+<link type="text/css" rel="stylesheet" href="/s/5d5f48a694bcfa25ec6da179dec42609-CDN/en_GB/5989/aaad9997c145089d7f38b9dea0ac5b91728ef55a.54/1.4.26/_/download/batch/com.atlassian.confluence.plugins.confluence-view-file-macro:view-file-macro-editor-content-resources/com.atlassian.confluence.plugins.confluence-view-file-macro:view-file-macro-editor-content-resources.css" media="all">
+<link type="text/css" rel="stylesheet" href="/s/d41d8cd98f00b204e9800998ecf8427e-CDN/en_GB/5989/aaad9997c145089d7f38b9dea0ac5b91728ef55a.54/2.4/_/download/batch/com.atlassian.confluence.plugins.confluence-software-blueprints:common-resources/com.atlassian.confluence.plugins.confluence-software-blueprints:common-resources.css" media="all">
+<link type="text/css" rel="stylesheet" href="/s/en_GB/5989/aaad9997c145089d7f38b9dea0ac5b91728ef55a.54/5/_/styles/colors.css?spaceKey=ECOMMDEV" media="all">
+<link type="text/css" rel="stylesheet" href="/s/en_GB/5989/aaad9997c145089d7f38b9dea0ac5b91728ef55a.54/1.0/_/download/resources/com.atlassian.confluence.themes.default:styles/default-theme.css" media="all">
+<link type="text/css" rel="stylesheet" href="/s/en_GB/5989/aaad9997c145089d7f38b9dea0ac5b91728ef55a.54/5/_/styles/custom.css?spaceKey=ECOMMDEV" media="all">
+
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+        
+
+<div class="editor-container">
+
+        
+            
+
+<div id="link-browser-tab-items" class="hidden">
+                <div title="Search" data-weight="10">search</div>
+            <div title="Recently viewed" data-weight="20">recentlyviewed</div>
+            <div title="Files" data-weight="30">attachments</div>
+            <div title="Web link" data-weight="40">weblink</div>
+            <div title="Advanced" data-weight="50">advanced</div>
+    </div>
+            <div id="image-properties-tab-items" class="hidden">
+                <div title="Title" data-weight="20">image-attributes</div>
+    </div>
+            
+
+ 
+
+
+
+
+
+
+
+
+
+
+        <div id="toolbar">
+        <div id="rte-toolbar" class="aui-toolbar aui-toolbar2">
+
+            <div class="aui-toolbar2-primary toolbar-primary">
+                <ul class="aui-buttons rte-toolbar-group-formatting">
+                                        <li id="format-dropdown" class="toolbar-item toolbar-dropdown">
+                        <div class="aui-dd-parent">
+                            <a id="format-dropdown-display" href="https://wiki.corp-apps.com/pages/viewpage.action?pageId=78815562#" class="toolbar-trigger aui-dd-trigger aui-button" data-control-id="formatselect">
+                                <span class="dropdown-text">Paragraph</span>
+                                    <span class="icon icon-dropdown "></span>
+                            </a>
+                            <ul id="format-dropdown-display-menu" class="aui-dropdown hidden">
+                                    <li class="dropdown-item format-p" data-format="p" data-tooltip="Paragraph (Ctrl+0)">
+        <a class="item-link" href="https://wiki.corp-apps.com/pages/viewpage.action?pageId=78815562#">Paragraph</a>
+    </li>
+                                    <li class="dropdown-item format-h1" data-format="h1" data-tooltip="Heading 1 (Ctrl+1)">
+        <a class="item-link" href="https://wiki.corp-apps.com/pages/viewpage.action?pageId=78815562#">Heading 1</a>
+    </li>
+                                    <li class="dropdown-item format-h2" data-format="h2" data-tooltip="Heading 2 (Ctrl+2)">
+        <a class="item-link" href="https://wiki.corp-apps.com/pages/viewpage.action?pageId=78815562#">Heading 2</a>
+    </li>
+                                    <li class="dropdown-item format-h3" data-format="h3" data-tooltip="Heading 3 (Ctrl+3)">
+        <a class="item-link" href="https://wiki.corp-apps.com/pages/viewpage.action?pageId=78815562#">Heading 3</a>
+    </li>
+                                    <li class="dropdown-item format-h4" data-format="h4" data-tooltip="Heading 4 (Ctrl+4)">
+        <a class="item-link" href="https://wiki.corp-apps.com/pages/viewpage.action?pageId=78815562#">Heading 4</a>
+    </li>
+                                    <li class="dropdown-item format-h5" data-format="h5" data-tooltip="Heading 5 (Ctrl+5)">
+        <a class="item-link" href="https://wiki.corp-apps.com/pages/viewpage.action?pageId=78815562#">Heading 5</a>
+    </li>
+                                    <li class="dropdown-item format-h6" data-format="h6" data-tooltip="Heading 6 (Ctrl+6)">
+        <a class="item-link" href="https://wiki.corp-apps.com/pages/viewpage.action?pageId=78815562#">Heading 6</a>
+    </li>
+                                    <li class="dropdown-item format-pre" data-format="pre" data-tooltip="Preformatted (Ctrl+7)">
+        <a class="item-link" href="https://wiki.corp-apps.com/pages/viewpage.action?pageId=78815562#">Preformatted</a>
+    </li>
+                                    <li class="dropdown-item format-blockquote" data-format="blockquote" data-tooltip="Quote (Ctrl+8)">
+        <a class="item-link" href="https://wiki.corp-apps.com/pages/viewpage.action?pageId=78815562#">Quote</a>
+    </li>
+                            </ul>
+                        </div>
+                    </li>
+                </ul>
+
+                <ul class="aui-buttons rte-toolbar-group-style">
+                    
+                <li class="toolbar-item aui-button" id="rte-button-bold" data-tooltip="Bold (Ctrl+B)">
+        <a class="toolbar-trigger" href="https://wiki.corp-apps.com/pages/viewpage.action?pageId=78815562#" data-control-id="bold">
+                <span class="icon icon-bold ">Bold</span>
+        </a>
+    </li>
+                    
+                <li class="toolbar-item aui-button" id="rte-button-italic" data-tooltip="Italic (Ctrl+I)">
+        <a class="toolbar-trigger" href="https://wiki.corp-apps.com/pages/viewpage.action?pageId=78815562#" data-control-id="italic">
+                <span class="icon icon-italic ">Italic</span>
+        </a>
+    </li>
+                    
+                <li class="toolbar-item aui-button" id="rte-button-underline" data-tooltip="Underline (Ctrl+U)">
+        <a class="toolbar-trigger" href="https://wiki.corp-apps.com/pages/viewpage.action?pageId=78815562#" data-control-id="underline">
+                <span class="icon icon-underline ">Underline</span>
+        </a>
+    </li>
+                                        <li id="color-picker-control" class="toolbar-item toolbar-splitbutton">
+                        <a class="toolbar-trigger aui-button" href="https://wiki.corp-apps.com/pages/viewpage.action?pageId=78815562#" id="rte-button-color" data-color="003366" data-tooltip="Colour"><span class="icon icon-textcolor ">Colour picker</span><span class="selected-color"></span></a><div class="aui-dd-parent"><a class="toolbar-trigger aui-dd-trigger aui-button" href="https://wiki.corp-apps.com/pages/viewpage.action?pageId=78815562#" id="rte-button-color-selector" data-control-id="colorSelector" data-tooltip="More colours"><span class="icon icon-dropdown ">More colours</span></a><div class="color-picker-container"><div class="color-picker aui-dropdown hidden"><ul><li><a href="https://wiki.corp-apps.com/pages/viewpage.action?pageId=78815562#" style="background-color: #000000" data-color="000000">&nbsp;</a></li><li><a href="https://wiki.corp-apps.com/pages/viewpage.action?pageId=78815562#" style="background-color: #993300" data-color="993300">&nbsp;</a></li><li><a href="https://wiki.corp-apps.com/pages/viewpage.action?pageId=78815562#" style="background-color: #333300" data-color="333300">&nbsp;</a></li><li><a href="https://wiki.corp-apps.com/pages/viewpage.action?pageId=78815562#" style="background-color: #003300" data-color="003300">&nbsp;</a></li><li><a href="https://wiki.corp-apps.com/pages/viewpage.action?pageId=78815562#" style="background-color: #003366" data-color="003366">&nbsp;</a></li><li><a href="https://wiki.corp-apps.com/pages/viewpage.action?pageId=78815562#" style="background-color: #000080" data-color="000080">&nbsp;</a></li><li><a href="https://wiki.corp-apps.com/pages/viewpage.action?pageId=78815562#" style="background-color: #333399" data-color="333399">&nbsp;</a></li><li><a href="https://wiki.corp-apps.com/pages/viewpage.action?pageId=78815562#" style="background-color: #333333" data-color="333333">&nbsp;</a></li><li><a href="https://wiki.corp-apps.com/pages/viewpage.action?pageId=78815562#" style="background-color: #800000" data-color="800000">&nbsp;</a></li><li><a href="https://wiki.corp-apps.com/pages/viewpage.action?pageId=78815562#" style="background-color: #FF6600" data-color="FF6600">&nbsp;</a></li><li><a href="https://wiki.corp-apps.com/pages/viewpage.action?pageId=78815562#" style="background-color: #808000" data-color="808000">&nbsp;</a></li><li><a href="https://wiki.corp-apps.com/pages/viewpage.action?pageId=78815562#" style="background-color: #008000" data-color="008000">&nbsp;</a></li><li><a href="https://wiki.corp-apps.com/pages/viewpage.action?pageId=78815562#" style="background-color: #008080" data-color="008080">&nbsp;</a></li><li><a href="https://wiki.corp-apps.com/pages/viewpage.action?pageId=78815562#" style="background-color: #0000FF" data-color="0000FF">&nbsp;</a></li><li><a href="https://wiki.corp-apps.com/pages/viewpage.action?pageId=78815562#" style="background-color: #666699" data-color="666699">&nbsp;</a></li><li><a href="https://wiki.corp-apps.com/pages/viewpage.action?pageId=78815562#" style="background-color: #808080" data-color="808080">&nbsp;</a></li><li><a href="https://wiki.corp-apps.com/pages/viewpage.action?pageId=78815562#" style="background-color: #FF0000" data-color="FF0000">&nbsp;</a></li><li><a href="https://wiki.corp-apps.com/pages/viewpage.action?pageId=78815562#" style="background-color: #FF9900" data-color="FF9900">&nbsp;</a></li><li><a href="https://wiki.corp-apps.com/pages/viewpage.action?pageId=78815562#" style="background-color: #99CC00" data-color="99CC00">&nbsp;</a></li><li><a href="https://wiki.corp-apps.com/pages/viewpage.action?pageId=78815562#" style="background-color: #339966" data-color="339966">&nbsp;</a></li><li><a href="https://wiki.corp-apps.com/pages/viewpage.action?pageId=78815562#" style="background-color: #33CCCC" data-color="33CCCC">&nbsp;</a></li><li><a href="https://wiki.corp-apps.com/pages/viewpage.action?pageId=78815562#" style="background-color: #3366FF" data-color="3366FF">&nbsp;</a></li><li><a href="https://wiki.corp-apps.com/pages/viewpage.action?pageId=78815562#" style="background-color: #800080" data-color="800080">&nbsp;</a></li><li><a href="https://wiki.corp-apps.com/pages/viewpage.action?pageId=78815562#" style="background-color: #999999" data-color="999999">&nbsp;</a></li><li><a href="https://wiki.corp-apps.com/pages/viewpage.action?pageId=78815562#" style="background-color: #FF00FF" data-color="FF00FF">&nbsp;</a></li><li><a href="https://wiki.corp-apps.com/pages/viewpage.action?pageId=78815562#" style="background-color: #FFCC00" data-color="FFCC00">&nbsp;</a></li><li><a href="https://wiki.corp-apps.com/pages/viewpage.action?pageId=78815562#" style="background-color: #FFFF00" data-color="FFFF00">&nbsp;</a></li><li><a href="https://wiki.corp-apps.com/pages/viewpage.action?pageId=78815562#" style="background-color: #00FF00" data-color="00FF00">&nbsp;</a></li><li><a href="https://wiki.corp-apps.com/pages/viewpage.action?pageId=78815562#" style="background-color: #00FFFF" data-color="00FFFF">&nbsp;</a></li><li><a href="https://wiki.corp-apps.com/pages/viewpage.action?pageId=78815562#" style="background-color: #00CCFF" data-color="00CCFF">&nbsp;</a></li><li><a href="https://wiki.corp-apps.com/pages/viewpage.action?pageId=78815562#" style="background-color: #993366" data-color="993366">&nbsp;</a></li><li><a href="https://wiki.corp-apps.com/pages/viewpage.action?pageId=78815562#" style="background-color: #C0C0C0" data-color="C0C0C0">&nbsp;</a></li><li><a href="https://wiki.corp-apps.com/pages/viewpage.action?pageId=78815562#" style="background-color: #FF99CC" data-color="FF99CC">&nbsp;</a></li><li><a href="https://wiki.corp-apps.com/pages/viewpage.action?pageId=78815562#" style="background-color: #FFCC99" data-color="FFCC99">&nbsp;</a></li><li><a href="https://wiki.corp-apps.com/pages/viewpage.action?pageId=78815562#" style="background-color: #FFFF99" data-color="FFFF99">&nbsp;</a></li><li><a href="https://wiki.corp-apps.com/pages/viewpage.action?pageId=78815562#" style="background-color: #CCFFCC" data-color="CCFFCC">&nbsp;</a></li><li><a href="https://wiki.corp-apps.com/pages/viewpage.action?pageId=78815562#" style="background-color: #CCFFFF" data-color="CCFFFF">&nbsp;</a></li><li><a href="https://wiki.corp-apps.com/pages/viewpage.action?pageId=78815562#" style="background-color: #99CCFF" data-color="99CCFF">&nbsp;</a></li><li><a href="https://wiki.corp-apps.com/pages/viewpage.action?pageId=78815562#" style="background-color: #CC99FF" data-color="CC99FF">&nbsp;</a></li><li><a href="https://wiki.corp-apps.com/pages/viewpage.action?pageId=78815562#" style="background-color: #FFFFFF" data-color="FFFFFF">&nbsp;</a></li></ul></div></div></div>
+                    </li>
+                    <li id="more-menu" class="toolbar-item toolbar-dropdown">
+                        <div class="aui-dd-parent">
+                            <a id="rte-button-more" href="https://wiki.corp-apps.com/pages/viewpage.action?pageId=78815562#" class="toolbar-trigger aui-dd-trigger aui-button" data-tooltip="More">
+                                    <span class="icon icon-more ">Formatting</span>
+                                    <span class="icon icon-dropdown "></span>
+                            </a>
+                            <div id="rte-button-more-menu" class="aui-dropdown grouped hidden">
+                                <div class="grouped-dropdown-item">
+                                    <ul>
+                                                                <li class="dropdown-item more-menu-trigger" data-control-id="strikethrough" data-tooltip="Strikethrough (Ctrl+Shift+S)">
+        <a id="rte-strikethrough" class="item-link" href="https://wiki.corp-apps.com/pages/viewpage.action?pageId=78815562#">
+                <span class="icon icon-check hidden"></span>
+Strikethrough
+        </a>
+    </li>
+                                                                 <li class="dropdown-item more-menu-trigger" data-control-id="sub" data-tooltip="">
+        <a id="rte-sub" class="item-link" href="https://wiki.corp-apps.com/pages/viewpage.action?pageId=78815562#">
+                <span class="icon icon-check hidden"></span>
+Subscript
+        </a>
+    </li>
+                                                                 <li class="dropdown-item more-menu-trigger" data-control-id="sup" data-tooltip="">
+        <a id="rte-sup" class="item-link" href="https://wiki.corp-apps.com/pages/viewpage.action?pageId=78815562#">
+                <span class="icon icon-check hidden"></span>
+Superscript
+        </a>
+    </li>
+                                                        <li class="dropdown-item more-menu-trigger" data-control-id="monospace" data-tooltip="Format text with monospaced font">
+        <a id="rte-monospace" class="item-link" href="https://wiki.corp-apps.com/pages/viewpage.action?pageId=78815562#">
+                <span class="icon icon-check hidden"></span>
+Monospace
+        </a>
+    </li>
+
+                                                                                                                    </ul>
+                                </div>
+                                <div class="grouped-dropdown-item">
+                                    <ul>
+                                            <li class="dropdown-item more-menu-trigger no-icon" data-format="removeformat" data-tooltip="Clears formatting on currently selected text">
+        <a id="rte-removeformat" class="item-link" href="https://wiki.corp-apps.com/pages/viewpage.action?pageId=78815562#">
+            Clear formatting
+        </a>
+    </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+
+                    </li>
+                </ul>
+
+                <ul class="aui-buttons rte-toolbar-group-lists">
+                    
+                <li class="toolbar-item aui-button" id="rte-button-bullist" data-tooltip="Bullet list (Ctrl+Shift+B)">
+        <a class="toolbar-trigger" href="https://wiki.corp-apps.com/pages/viewpage.action?pageId=78815562#" data-control-id="bullist">
+                <span class="icon icon-bullist ">Bullet list</span>
+        </a>
+    </li>
+                    
+                <li class="toolbar-item aui-button" id="rte-button-numlist" data-tooltip="Numbered list (Ctrl+Shift+N)">
+        <a class="toolbar-trigger" href="https://wiki.corp-apps.com/pages/viewpage.action?pageId=78815562#" data-control-id="numlist">
+                <span class="icon icon-numlist ">Numbered list</span>
+        </a>
+    </li>
+                </ul>
+                                <ul class="aui-buttons rte-toolbar-group-task-lists">
+                    
+                <li class="toolbar-item aui-button" id="rte-button-tasklist" data-tooltip="Task list ([ then ])">
+        <a class="toolbar-trigger" href="https://wiki.corp-apps.com/pages/viewpage.action?pageId=78815562#" data-control-id="tasklist">
+                <span class="icon icon-tasklist ">Task list</span>
+        </a>
+    </li>
+                </ul>
+                
+                <ul class="aui-buttons rte-toolbar-group-indentation">
+                    
+                <li class="toolbar-item aui-button" id="rte-button-outdent" data-tooltip="Outdent">
+        <a class="toolbar-trigger" href="https://wiki.corp-apps.com/pages/viewpage.action?pageId=78815562#" data-control-id="outdent">
+                <span class="icon icon-outdent ">Outdent</span>
+        </a>
+    </li>
+                    
+                <li class="toolbar-item aui-button" id="rte-button-indent" data-tooltip="Indent">
+        <a class="toolbar-trigger" href="https://wiki.corp-apps.com/pages/viewpage.action?pageId=78815562#" data-control-id="indent">
+                <span class="icon icon-indent ">Indent</span>
+        </a>
+    </li>
+                </ul>
+
+                <ul class="aui-buttons rte-toolbar-group-justification">
+                    
+                <li class="toolbar-item aui-button" id="rte-button-justifyleft" data-tooltip="Align left">
+        <a class="toolbar-trigger" href="https://wiki.corp-apps.com/pages/viewpage.action?pageId=78815562#" data-control-id="justifyleft">
+                <span class="icon icon-justifyleft ">Align left</span>
+        </a>
+    </li>
+                    
+                <li class="toolbar-item aui-button" id="rte-button-justifycenter" data-tooltip="Align center">
+        <a class="toolbar-trigger" href="https://wiki.corp-apps.com/pages/viewpage.action?pageId=78815562#" data-control-id="justifycenter">
+                <span class="icon icon-justifycenter ">Align center</span>
+        </a>
+    </li>
+                    
+                <li class="toolbar-item aui-button" id="rte-button-justifyright" data-tooltip="Align right">
+        <a class="toolbar-trigger" href="https://wiki.corp-apps.com/pages/viewpage.action?pageId=78815562#" data-control-id="justifyright">
+                <span class="icon icon-justifyright ">Align right</span>
+        </a>
+    </li>
+                </ul>
+
+                                <ul class="aui-buttons hidden" id="page-layout-2-group">
+                    <li id="page-layout-2" class="toolbar-item" data-tooltip="Page layout">
+                        <a href="https://wiki.corp-apps.com/pages/viewpage.action?pageId=78815562#" class="aui-button toolbar-trigger" id="rte-button-pagelayout-2">
+                                <span class="icon icon-layout ">Page layout</span>
+                        </a>
+                    </li>
+                </ul>
+                
+
+                <ul class="aui-buttons rte-toolbar-group-files hidden"></ul>
+
+                <ul class="aui-buttons rte-toolbar-group-link no-separator">
+                    <li class="toolbar-item" data-tooltip="Insert link (Ctrl+K)">
+                        <a id="rte-button-link" class="toolbar-trigger aui-button" href="https://wiki.corp-apps.com/pages/viewpage.action?pageId=78815562#" data-control-id="linkbrowserButton">
+                                <span class="icon icon-link "></span>
+                            <span class="trigger-text">Link</span>
+                        </a>
+                    </li>
+                </ul>
+
+                <ul class="aui-buttons rte-toolbar-group-table no-separator">
+                    <li class="toolbar-item toolbar-dropdown" id="insert-table-dropdown">
+                        <div class="aui-dd-parent">
+                            <a href="https://wiki.corp-apps.com/pages/viewpage.action?pageId=78815562#" class="toolbar-trigger aui-dd-trigger aui-button" id="rte-button-insert-table" data-tooltip="Insert table">
+                                    <span class="icon icon-table "></span>
+                                <span class="dropdown-text">Table</span>
+                                    <span class="icon icon-dropdown "></span>
+                            </a>
+
+                            <div id="table-picker-container" class="hidden aui-box-shadow">
+                                <div class="table-picker-box" data-tooltip="Hold SHIFT for a table without a heading.">
+                                    <div class="table-picker-background">
+                                        <div class="picker picker-cell"></div>
+                                        <div class="picker picker-heading heading"></div>
+                                        <div class="picker picker-selected-cell"></div>
+                                        <div class="picker picker-selected-heading heading"></div>
+                                    </div>
+                                    <p class="desc"></p>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+
+                                                                
+                
+                <ul class="aui-buttons rte-toolbar-group-insert no-separator">
+                    <li class="toolbar-item toolbar-dropdown" id="insert-menu">
+                        <div class="aui-dd-parent">
+                            <a href="https://wiki.corp-apps.com/pages/viewpage.action?pageId=78815562#" class="toolbar-trigger aui-dd-trigger aui-button" id="rte-button-insert" data-tooltip="Insert more content">
+                                    <span class="icon icon-insert "></span>
+                                <span class="dropdown-text">Insert</span>
+                                    <span class="icon icon-dropdown "></span>
+                            </a>
+
+                            <div id="insert-menu-options" class="aui-dropdown grouped hidden">
+                                <div class="grouped-dropdown-item">
+                                    <span class="assistive">Insert content</span>
+                                    <ul id="content-insert-list">
+                                        
+        
+        <li class="dropdown-item content-image" data-command="mceConfimage" data-tooltip="Insert files and images (Ctrl+M)">
+        <a id="rte-insert-image" class="item-link" href="https://wiki.corp-apps.com/pages/viewpage.action?pageId=78815562#">
+                <span class="icon "></span>
+ Files and images
+        </a>
+    </li>
+                                        
+        
+        <li class="dropdown-item content-link" data-control-id="linkbrowserButton" data-tooltip="Insert link (Ctrl+K)">
+        <a id="rte-insert-link" class="item-link" href="https://wiki.corp-apps.com/pages/viewpage.action?pageId=78815562#">
+                <span class="icon "></span>
+ Link
+        </a>
+    </li>
+                                        
+    
+        <li class="dropdown-item content-symbol" data-command="confCharmap" data-tooltip="Insert symbol">
+        <a id="rte-insert-symbol" class="item-link" href="https://wiki.corp-apps.com/pages/viewpage.action?pageId=78815562#">
+                <span class="icon "></span>
+ Symbol
+        </a>
+    </li>
+                                        
+    
+        <li class="dropdown-item content-emoticon" data-command="mceEmotion" data-tooltip="Insert emoticon">
+        <a id="rte-insert-emoticon" class="item-link" href="https://wiki.corp-apps.com/pages/viewpage.action?pageId=78815562#">
+                <span class="icon "></span>
+ Emoticon
+        </a>
+    </li>
+                                        
+        
+        <li class="dropdown-item content-wikimarkup" data-command="InsertWikiMarkup" data-tooltip="Insert markup (Ctrl+Shift+D)">
+        <a id="rte-insert-wikimarkup" class="item-link" href="https://wiki.corp-apps.com/pages/viewpage.action?pageId=78815562#">
+                <span class="icon "></span>
+ Markup
+        </a>
+    </li>
+                                        
+    
+        <li class="dropdown-item content-hr" data-command="InsertHorizontalRule" data-tooltip="Insert horizontal rule (----)">
+        <a id="rte-insert-hr" class="item-link" href="https://wiki.corp-apps.com/pages/viewpage.action?pageId=78815562#">
+                <span class="icon "></span>
+ Horizontal rule
+        </a>
+    </li>
+                                                                                    
+        
+        <li class="dropdown-item content-tasklist" data-command="InsertInlineTaskListNoToggle" data-tooltip="Insert task list ([ then ])">
+        <a id="rte-insert-tasklist" class="item-link" href="https://wiki.corp-apps.com/pages/viewpage.action?pageId=78815562#">
+                <span class="icon "></span>
+ Task list
+        </a>
+    </li>
+                                                                            </ul>
+                                </div>
+                                <div class="grouped-dropdown-item">
+                                    <span class="assistive">Insert macro</span>
+                                    <ul id="macro-insert-list">
+                                                                                                                                                                                <li class="dropdown-item macro-insertmention-button" data-macro-name="insertmention-button" data-tooltip="Insert &#39;User mention&#39; macro">
+        <a id="insertmention-button" class="item-link" href="https://wiki.corp-apps.com/pages/viewpage.action?pageId=78815562#">
+                <span class="icon "></span>
+ User mention
+        </a>
+    </li>
+                                                                                                <li class="dropdown-item macro-jiralink" data-macro-name="jiralink" data-tooltip="Insert &#39;JIRA Issue/Filter&#39; macro">
+        <a id="jiralink" class="item-link" href="https://wiki.corp-apps.com/pages/viewpage.action?pageId=78815562#">
+                <span class="icon "></span>
+ JIRA Issue/Filter
+        </a>
+    </li>
+                                                                                                <li class="dropdown-item macro-info" data-macro-name="info" data-tooltip="Insert &#39;Info&#39; macro">
+        <a id="info" class="item-link" href="https://wiki.corp-apps.com/pages/viewpage.action?pageId=78815562#">
+                <span class="icon "></span>
+ Info
+        </a>
+    </li>
+                                                                                                <li class="dropdown-item macro-lucidchart-onprem" data-macro-name="lucidchart-onprem" data-tooltip="Insert &#39;Add Lucidchart (onprem) Diagram&#39; macro">
+        <a id="lucidchart-onprem" class="item-link" href="https://wiki.corp-apps.com/pages/viewpage.action?pageId=78815562#">
+                <span class="icon " style="background-image: url(https://wiki.corp-apps.com/download/resources/com.lucidchart.onprem.confluence.plugins.lucid-onprem-confluence:lucid-confluence-resources/images/lucid-onprem.png);"></span>
+ Add Lucidchart (onprem) Diagram
+        </a>
+    </li>
+                                                                                                <li class="dropdown-item macro-status" data-macro-name="status" data-tooltip="Insert &#39;Status&#39; macro">
+        <a id="status" class="item-link" href="https://wiki.corp-apps.com/pages/viewpage.action?pageId=78815562#">
+                <span class="icon "></span>
+ Status
+        </a>
+    </li>
+                                                                                                <li class="dropdown-item macro-gallery" data-macro-name="gallery" data-tooltip="Insert &#39;Gallery&#39; macro">
+        <a id="gallery" class="item-link" href="https://wiki.corp-apps.com/pages/viewpage.action?pageId=78815562#">
+                <span class="icon "></span>
+ Gallery
+        </a>
+    </li>
+                                                                                                <li class="dropdown-item macro-toc" data-macro-name="toc" data-tooltip="Insert &#39;Table of Contents&#39; macro">
+        <a id="toc" class="item-link" href="https://wiki.corp-apps.com/pages/viewpage.action?pageId=78815562#">
+                <span class="icon "></span>
+ Table of Contents
+        </a>
+    </li>
+                                                                                                <li class="dropdown-item macro-calendar" data-macro-name="calendar" data-tooltip="Insert &#39;Team Calendar&#39; macro">
+        <a id="calendar" class="item-link" href="https://wiki.corp-apps.com/pages/viewpage.action?pageId=78815562#">
+                <span class="icon "></span>
+ Team Calendar
+        </a>
+    </li>
+                                                                                                                            
+        
+        <li class="dropdown-item content-macro" data-command="mceConfMacroBrowser" data-tooltip="Open the macro browser (Ctrl+Shift+A)">
+        <a id="rte-insert-macro" class="item-link" href="https://wiki.corp-apps.com/pages/viewpage.action?pageId=78815562#">
+                <span class="icon "></span>
+ Other macros
+        </a>
+    </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+
+                                <ul class="aui-buttons rte-toolbar-group-page-layouts-section-types">
+                    <li id="pagelayout-menu" class="toolbar-item toolbar-dropdown">
+                        <div class="aui-dd-parent">
+                            <a href="https://wiki.corp-apps.com/pages/viewpage.action?pageId=78815562#" class="toolbar-trigger aui-dd-trigger aui-button" id="rte-button-pagelayout" data-tooltip="Page layout">
+                                    <span class="icon icon-layout pagelayout-default">Page layout</span>
+                                    <span class="icon icon-dropdown "></span>
+                            </a>
+
+                            <ul id="pagelayout-menu-options" class="aui-dropdown hidden">
+                                <li class="dropdown-item" data-tooltip="No layout">
+    <a href="https://wiki.corp-apps.com/pages/viewpage.action?pageId=78815562#" class="item-link" data-atlassian-layout="{&quot;name&quot;: &quot;pagelayout-none&quot;, &quot;columns&quot;: 0   }">
+            <span class="icon icon-check hidden"></span>
+            <span class="icon icon-layout pagelayout-none">No layout</span>
+    </a>
+</li>
+                                <li class="dropdown-item" data-tooltip="Two column (simple)">
+    <a href="https://wiki.corp-apps.com/pages/viewpage.action?pageId=78815562#" class="item-link" data-atlassian-layout="{&quot;name&quot;: &quot;pagelayout-two-simple&quot;, &quot;columns&quot;: [&quot;&quot;, &quot;&quot;]   }">
+            <span class="icon icon-check hidden"></span>
+            <span class="icon icon-layout pagelayout-two-simple">Two column (simple)</span>
+    </a>
+</li>
+                                <li class="dropdown-item" data-tooltip="Two column (simple, left sidebar)">
+    <a href="https://wiki.corp-apps.com/pages/viewpage.action?pageId=78815562#" class="item-link" data-atlassian-layout="{&quot;name&quot;: &quot;pagelayout-two-simple-left&quot;, &quot;columns&quot;: [&quot;aside&quot;, &quot;large&quot;]   }">
+            <span class="icon icon-check hidden"></span>
+            <span class="icon icon-layout pagelayout-two-simple-left">Two column (simple, left sidebar)</span>
+    </a>
+</li>
+                                <li class="dropdown-item" data-tooltip="Two column (simple, right sidebar)">
+    <a href="https://wiki.corp-apps.com/pages/viewpage.action?pageId=78815562#" class="item-link" data-atlassian-layout="{&quot;name&quot;: &quot;pagelayout-two-simple-right&quot;, &quot;columns&quot;: [&quot;large&quot;, &quot;aside&quot;]   }">
+            <span class="icon icon-check hidden"></span>
+            <span class="icon icon-layout pagelayout-two-simple-right">Two column (simple, right sidebar)</span>
+    </a>
+</li>
+                                <li class="dropdown-item" data-tooltip="Three column (simple)">
+    <a href="https://wiki.corp-apps.com/pages/viewpage.action?pageId=78815562#" class="item-link" data-atlassian-layout="{&quot;name&quot;: &quot;pagelayout-three-simple&quot;, &quot;columns&quot;: [&quot;&quot;, &quot;&quot;, &quot;&quot;]   }">
+            <span class="icon icon-check hidden"></span>
+            <span class="icon icon-layout pagelayout-three-simple">Three column (simple)</span>
+    </a>
+</li>
+                                <li class="dropdown-item" data-tooltip="Two column">
+    <a href="https://wiki.corp-apps.com/pages/viewpage.action?pageId=78815562#" class="item-link" data-atlassian-layout="{&quot;name&quot;: &quot;pagelayout-two&quot;, &quot;columns&quot;: [&quot;&quot;, &quot;&quot;] , &quot;header&quot;: true  , &quot;footer&quot;:true  }">
+            <span class="icon icon-check hidden"></span>
+            <span class="icon icon-layout pagelayout-two">Two column</span>
+    </a>
+</li>
+                                <li class="dropdown-item" data-tooltip="Two column (left sidebar)">
+    <a href="https://wiki.corp-apps.com/pages/viewpage.action?pageId=78815562#" class="item-link" data-atlassian-layout="{&quot;name&quot;: &quot;pagelayout-two-left&quot;, &quot;columns&quot;: [&quot;aside&quot;, &quot;large&quot;] , &quot;header&quot;: true  , &quot;footer&quot;:true  }">
+            <span class="icon icon-check hidden"></span>
+            <span class="icon icon-layout pagelayout-two-left">Two column (left sidebar)</span>
+    </a>
+</li>
+                                <li class="dropdown-item" data-tooltip="Two column (right sidebar)">
+    <a href="https://wiki.corp-apps.com/pages/viewpage.action?pageId=78815562#" class="item-link" data-atlassian-layout="{&quot;name&quot;: &quot;pagelayout-two-right&quot;, &quot;columns&quot;: [&quot;large&quot;, &quot;aside&quot;] , &quot;header&quot;: true  , &quot;footer&quot;:true  }">
+            <span class="icon icon-check hidden"></span>
+            <span class="icon icon-layout pagelayout-two-right">Two column (right sidebar)</span>
+    </a>
+</li>
+                                <li class="dropdown-item" data-tooltip="Three column">
+    <a href="https://wiki.corp-apps.com/pages/viewpage.action?pageId=78815562#" class="item-link" data-atlassian-layout="{&quot;name&quot;: &quot;pagelayout-three&quot;, &quot;columns&quot;: [&quot;&quot;, &quot;&quot;, &quot;&quot;] , &quot;header&quot;: true  , &quot;footer&quot;:true  }">
+            <span class="icon icon-check hidden"></span>
+            <span class="icon icon-layout pagelayout-three">Three column</span>
+    </a>
+</li>
+                                <li class="dropdown-item" data-tooltip="Three column (left and right sidebars)">
+    <a href="https://wiki.corp-apps.com/pages/viewpage.action?pageId=78815562#" class="item-link" data-atlassian-layout="{&quot;name&quot;: &quot;pagelayout-three-sidebars&quot;, &quot;columns&quot;: [&quot;sidebars&quot;, &quot;large&quot;, &quot;sidebars&quot;] , &quot;header&quot;: true  , &quot;footer&quot;:true  }">
+            <span class="icon icon-check hidden"></span>
+            <span class="icon icon-layout pagelayout-three-sidebars">Three column (left and right sidebars)</span>
+    </a>
+</li>
+                            </ul>
+                        </div>
+                    </li>
+                </ul>
+                
+                                                
+                <ul class="aui-buttons rte-toolbar-group-undo">
+                    
+                <li class="toolbar-item aui-button" id="rte-button-undo" data-tooltip="Undo (Ctrl+Z)">
+        <a class="toolbar-trigger" href="https://wiki.corp-apps.com/pages/viewpage.action?pageId=78815562#" data-control-id="undo">
+                <span class="icon icon-undo ">Undo</span>
+        </a>
+    </li>
+                    
+                <li class="toolbar-item aui-button" id="rte-button-redo" data-tooltip="Redo (Ctrl+Y)">
+        <a class="toolbar-trigger" href="https://wiki.corp-apps.com/pages/viewpage.action?pageId=78815562#" data-control-id="redo">
+                <span class="icon icon-redo ">Redo</span>
+        </a>
+    </li>
+                </ul>
+
+            </div>                                                                                                <div id="draft-status" style="display:none"></div>
+                            <div class="aui-toolbar2-secondary">
+                <ul class="aui-buttons rte-toolbar-group-searchreplace">
+                        <li class="toolbar-item aui-button" id="rte-button-searchreplace" data-tooltip="Find/Replace">
+        <a class="toolbar-trigger" href="https://wiki.corp-apps.com/pages/viewpage.action?pageId=78815562#" data-control-id="searchreplace">
+                <span class="icon icon-searchreplace ">Find/Replace</span>
+        </a>
+    </li>
+                </ul>
+                <ul class="aui-buttons rte-toolbar-group-help">
+                        <li class="toolbar-item aui-button" id="rte-button-help" data-tooltip="Help">
+        <a class="toolbar-trigger" href="https://wiki.corp-apps.com/pages/viewpage.action?pageId=78815562#" data-control-id="help">
+                <span class="icon icon-help ">Keyboard shortcuts help</span>
+        </a>
+    </li>
+                </ul>
+            </div>        </div>    </div>
+
+        
+        
+        
+                    <div id="editor-notifications-container"><div id="editor-messages"><div id="heartbeat-div" class="hidden"><div class="aui-message info closeable"><span class="aui-icon icon-info"></span>This page is also being edited by <span id="other-users-span"></span>. Your changes will be merged with theirs when you save.</div></div></div><div id="all-messages"><div id="action-messages"></div></div></div><div id="editor-precursor"><div class="cell"><div class="aui-buttons aui-toolbar2"><button class="aui-button aui-button-subtle" type="button" data-tooltip="2 Labels" id="rte-button-labels" data-explicit-restrictions="" data-inherited-restrictions=""><span class="icon icon-labels"></span></button></div><div id="content-title-div"><input type="text" name="title" id="content-title" tabindex="1" class="text pagetitle" autocomplete="off" value="One git clone is enough!" placeholder="Blog post title"></div></div></div>
+    
+    <div id="wysiwyg">
+        <div id="rte" class="cell editor-default">
+            <textarea id="wysiwygTextarea" name="wysiwygContent" class="hidden tinymce-editor"></textarea>
+        </div>
+    </div>
+    <div id="editor-html-source-container" class="hidden">
+        <textarea id="editor-html-source" class="monospaceInput"></textarea>
+    </div>
+
+    <div id="preview">
+                        <div id="previewArea" class="cell">
+        </div>
+    </div>
+
+            <div id="savebar-container"><div id="rte-savebar" class="aui-toolbar aui-toolbar2"><div class="toolbar-split toolbar-split-row"><div class="toolbar-split toolbar-split-left"><div class="aui-buttons"></div></div><div class="toolbar-split toolbar-split-right"><div class="aui-buttons" id="rte-savebar-tinymce-plugin-point"></div><div class="aui-buttons"><span id="rte-spinner" class="toolbar-item">&nbsp;</span></div><div class="aui-buttons toolbar-group-edit assistive"><button id="rte-button-edit" class="aui-button" title="Return To edit Mode" type="button"><span class="trigger-text">Edit</span></button></div><div class="aui-buttons toolbar-group-preview"><button class="aui-button toolbar-item" id="rte-button-preview" title="Preview" type="button"><span class="trigger-text">Preview</span></button></div><div class="save-button-container"><button class="aui-button aui-button-primary" type="submit" id="rte-button-publish" name="confirm" value="Save" title="Save"><span class="trigger-text">Save</span></button></div><button class="toolbar-item-link aui-button aui-button-link" type="submit" id="rte-button-cancel" name="cancel" value="cancel"><span class="trigger-text">Cancel</span></button></div></div></div></div>
+    
+    
+</div>
+
+
+
+<script type="text/x-template" title="dynamic-editor-metadata" id="dynamic-editor-metadata-template">
+            <meta name="ajs-use-watch" content="true">
+            <meta name="ajs-attachment-source-content-id" content="78815562">
+            <meta name="ajs-use-inline-tasks" content="true">
+            <meta name="ajs-heartbeat" content="true">
+            <meta name="ajs-action-locale" content="en_GB">
+            <meta name="ajs-editor-plugin-resource-prefix" content="/s/en_GB/5989/aaad9997c145089d7f38b9dea0ac5b91728ef55a.54/5.8.10/_">
+            <meta name="ajs-existing-draft-id" content="0">
+            <meta name="ajs-user-watching-own-content" content="true">
+            <meta name="ajs-new-page" content="false">
+            <meta name="ajs-content-id" content="78815562">
+            <meta name="ajs-editor-mode" content="richtext">
+            <meta name="ajs-form-name" content="inlinecommentform">
+            <meta name="ajs-auto-start" content="false">
+            <meta name="ajs-can-attach-files" content="false">
+            <meta name="ajs-draft-id" content="0">
+            <meta name="ajs-shared-drafts" content="false">
+            <meta name="ajs-min-editor-height" content="150">
+            <meta name="ajs-draft-share-id" content="">
+            <meta name="ajs-content-type" content="blogpost">
+            <meta name="ajs-version-comment" content="">
+            <meta name="ajs-draft-type" content="blogpost">
+                
+            		    <meta name="ajs-max-thumb-width" content="300">
+		    <meta name="ajs-max-thumb-height" content="300">
+		    <meta name="ajs-can-send-email" content="true">
+		    <meta name="ajs-is-dev-mode" content="false">
+		    <meta name="ajs-draft-save-interval" content="300000">
+		    <meta name="ajs-show-hidden-user-macros" content="false">
+		    <meta name="ajs-is-admin" content="false">
+		    <meta name="ajs-confluence.prefs.editor.disable.autocomplete" content="false">
+		    <meta name="ajs-confluence.prefs.editor.disable.autoformat" content="false">
+		    <meta name="ajs-heartbeat-interval" content="30000">
+	
+    </script>
+
+<script type="text/x-template" title="tableForm" id="table-form-template">
+    <form id="tinymce-table-form" class="aui">
+        <div class="field-group">
+            <label for="rows">Rows</label>
+            <input id="rows" name="rows" type="text" size="3" autocomplete="off" value="{0}">
+        </div>
+        <div class="field-group">
+            <label for="cols">Columns</label>
+            <input id="cols" name="cols" type="text" size="3" autocomplete="off" value="{1}">
+        </div>
+        <div class="field-group hidden">
+            <input id="width" type="hidden" name="width" value="">
+            <label for="width">Width</label>
+        </div>
+        <div class="group">
+            <div class="checkbox">
+                <input id="table-heading-checkbox" class="checkbox" type="checkbox" name="heading" checked="checked" value="true">
+                <label for="table-heading-checkbox">First row is heading</label>
+            </div>
+        </div>
+        <div class="group hidden">
+            <div class="checkbox">
+                <input id="table-equal-width-columns-checkbox" class="checkbox" type="checkbox" name="equal-width-columns" value="false">
+                <label for="table-equal-width-columns-checkbox">Equal width columns</label>
+            </div>
+        </div>
+    </form>
+</script>
+<input type="hidden" name="draftId" value="0" id="draftId"><input type="hidden" name="originalVersion" value="1" id="originalVersion">    <input type="hidden" name="atl_token" value="e85b1f01b8416cd86f0ea33befcfc4218088a6b1">
+</div><div id="lucid-message-container"></div></body></html>
